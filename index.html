@@ -17,6 +17,7 @@
   .trend-summary h2{margin:0 0 10px;font-size:16px;color:var(--accent);}
   .trend-summary p{margin:0;font-size:14px;line-height:1.7;color:#3c4250;}
   .trend-summary b{color:var(--text);}
+  .sort-note{color:var(--muted);font-size:13px;margin:0 0 14px;}
   .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
   .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:17px 18px 15px;position:relative;overflow:hidden;transition:box-shadow .18s,transform .18s;cursor:pointer;}
   .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--src-c,#ccc);}
@@ -59,6 +60,7 @@
     <p>今日 WAIC 2026 在上海落幕，行业焦点明显从「模型参数」转向「物理世界与真实场景」：具身智能（灵巧手进 618 仓库分拣、面壁智能开源攻克记忆短板的 MiniCPM-Robot、各方对机器人 ChatGPT 时刻最快两年的共识）与世界模型（昆仑万维宣布 2026 为「世界模型元年」）成为最大看点；国产算力与 Agent 基础设施（无问芯穹被四家头部基模共选、商汤提出 Prefill/Decode 异构混合推理）承接推理需求暴涨。模型侧 DeepSeek V4 发布在即、Kimi 因算力紧缺暂停 C 端订阅、千问 Qwen3.8 与阿里语音模型密集更新，竞争持续升温。</p>
   </section>
 
+  <div class="sort-note">卡片已按重要性排序（高 → 低）</div>
   <div class="grid" id="grid">
     <article class="card" data-src="爱范儿" data-imp="5" data-seq="1" data-title="苹果国行 ai 刷屏之外，三星也把端侧大脑交给国产 ai" data-url="https://www.ifanr.com/1672593">
   <div class="card-head">
@@ -71,51 +73,7 @@
   <ol class="toc"><li>1. 七款产品获端侧 AI 备案</li><li>2. 三星牵手面壁智能</li><li>3. 行业进入规模化落地</li></ol>
   
 </article>
-<article class="card" data-src="爱范儿" data-imp="4" data-seq="2" data-title="世界杯冠军刚出炉，我让商汤 u1 pro 做了一份全景赛况图" data-url="https://www.ifanr.com/1672547">
-  <div class="card-head">
-    <span class="src-badge" style="background:#14b8a6">爱范儿</span>
-    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
-  </div>
-  <h3 class="title"><a href="https://www.ifanr.com/1672547" target="_blank" rel="noopener">世界杯冠军刚出炉，我让商汤 U1 Pro 做了一份全景赛况图</a></h3>
-  <div class="cat">爱范儿 · 消费科技 · 2026-07-20</div>
-  <div class="summary">商汤在 WAIC 发布日日新 SenseNova U1 Pro，是业内首个将「理解·生成·行动」原生统一的多模态智能体基座模型，支持原生 8K 输出，主打交付级高精度视觉内容（商业海报、信息图、学术设计与工业图解等）。文章以世界杯冠军海报实测为例，说明其在标题、日期、Logo 等密集文字与排版准确性上明显优于常规娱乐级生图，更贴近设计师的实际交付需求。</div>
-  <ol class="toc"><li>1. 从生图到交付级设计</li><li>2. U1 Pro 的核心能力</li><li>3. 世界杯海报实测</li></ol>
-  
-</article>
-<article class="card" data-src="爱范儿" data-imp="4" data-seq="3" data-title="实测千问 qwen3.8 预览版，国产模型开始围攻 fable 5" data-url="https://www.ifanr.com/1672515">
-  <div class="card-head">
-    <span class="src-badge" style="background:#14b8a6">爱范儿</span>
-    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
-  </div>
-  <h3 class="title"><a href="https://www.ifanr.com/1672515" target="_blank" rel="noopener">实测千问 Qwen3.8 预览版，国产模型开始围攻 Fable 5</a></h3>
-  <div class="cat">爱范儿 · 消费科技 · 2026-07-20</div>
-  <div class="summary">阿里发布千问新一代旗舰预览版 Qwen3.8-Max-Preview，参数量 2.4T，官方称其综合能力仅次于 Fable 5。文章用 Qoder 实测其网站设计与编程能力，上下文窗口最多可拉至 1M；网友讨论集中在「预览 ≠ 交付」，等待正式版权重、benchmark 与激活参数量的披露。</div>
-  
-  
-</article>
-<article class="card" data-src="爱范儿" data-imp="3" data-seq="4" data-title="早报｜曝月之暗面最快半年内上市 / 荣耀 robot phone 开启预约 / idc：2030 年全球活跃智能体将超 22 亿个" data-url="https://www.ifanr.com/1672471">
-  <div class="card-head">
-    <span class="src-badge" style="background:#14b8a6">爱范儿</span>
-    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
-  </div>
-  <h3 class="title"><a href="https://www.ifanr.com/1672471" target="_blank" rel="noopener">早报｜曝月之暗面最快半年内上市 / 荣耀 Robot Phone 开启预约 / IDC：2030 年全球活跃智能体将超 22 亿个</a></h3>
-  <div class="cat">爱范儿 · 消费科技 · 2026-07-20</div>
-  <div class="summary">多条 AI 资讯汇总：月之暗面最快半年内上市；荣耀 Robot Phone 开启预约，支持跨应用任务与云台互动；IDC 预计 2030 年全球活跃智能体将超过 22 亿个；Meta 与 Anthropic 商谈最高 100 亿美元算力租赁；Claude Fable 5 宣布永久可用（Max/Team Premium 限额 50%）；商汤 U1 Pro、Qwen3.8 等密集发布。</div>
-  
-  
-</article>
-<article class="card" data-src="量子位" data-imp="4" data-seq="5" data-title="waic 2026 收官｜范式大会亮点集锦，见证 ai 2.0 从技术突破走向产业实践" data-url="https://www.qbitai.com/2026/07/455963.html">
-  <div class="card-head">
-    <span class="src-badge" style="background:#3b6ef5">量子位</span>
-    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
-  </div>
-  <h3 class="title"><a href="https://www.qbitai.com/2026/07/455963.html" target="_blank" rel="noopener">WAIC 2026 收官｜范式大会亮点集锦，见证 AI 2.0 从技术突破走向产业实践</a></h3>
-  <div class="cat">量子位 · AI · 2026-07-20</div>
-  <div class="summary">2026 世界人工智能大会（WAIC 2026）于 7 月 20 日在上海落幕。范式以「Token 工厂」体系为核心展示全栈 AI 能力，覆盖异构算力统一调度（HAMi）、国产算力模型适配（ModelHub XC）、AGI 平台 Phanthy 及跨平台具身/编程/影视 Agent，完整呈现 AI 2.0 从技术创新、工程落地到产业赋能的闭环，并入选全球可信工业 AI 解决方案。</div>
-  
-  
-</article>
-<article class="card" data-src="量子位" data-imp="5" data-seq="6" data-title="不同模型厂同一家 agentic infra，agi 时代的地基终于浮出水面" data-url="https://www.qbitai.com/2026/07/455805.html">
+<article class="card" data-src="量子位" data-imp="5" data-seq="2" data-title="不同模型厂同一家 agentic infra，agi 时代的地基终于浮出水面" data-url="https://www.qbitai.com/2026/07/455805.html">
   <div class="card-head">
     <span class="src-badge" style="background:#3b6ef5">量子位</span>
     <span class="imp" title="重要性 5/5"><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><b>&nbsp;5</b></span>
@@ -126,7 +84,73 @@
   <ol class="toc"><li>1. 四家基模同选无问芯穹</li><li>2. 推理需求爆发与算力缺口</li><li>3. 精度对齐成隐形门槛</li></ol>
   
 </article>
-<article class="card" data-src="量子位" data-imp="4" data-seq="7" data-title="当 ai 进入最依赖「人」的行业：一家四线城市康复机构利润增长 40%" data-url="https://www.qbitai.com/2026/07/455791.html">
+<article class="card" data-src="新智元" data-imp="5" data-seq="3" data-title="「世界模型元年」定了！昆仑万维 waic 发布全矩阵升级：让 ai 懂世界、能行动" data-url="https://aiera.com.cn/2026/07/20/other/admin/104994/">
+  <div class="card-head">
+    <span class="src-badge" style="background:#8b5cf6">新智元</span>
+    <span class="imp" title="重要性 5/5"><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><b>&nbsp;5</b></span>
+  </div>
+  <h3 class="title"><a href="https://aiera.com.cn/2026/07/20/other/admin/104994/" target="_blank" rel="noopener">「世界模型元年」定了！昆仑万维 WAIC 发布全矩阵升级：让 AI 懂世界、能行动</a></h3>
+  <div class="cat">新智元 · AI · 2026-07-20</div>
+  <div class="summary">昆仑万维在 WAIC 举办「世界模型与多模态范式跃迁」论坛，董事长方汉宣布 2026 年为「世界模型元年」，并发布 Matrix-Game 3.5 世界模型、Mureka v9.5 与 O3 音乐模型。文章指出 AI 核心命题正从「生成」转向「理解与交互」，世界模型将走出屏幕进入物理世界，游戏行业将率先被改变。</div>
+  <ol class="toc"><li>1. 2026 世界模型元年</li><li>2. 三大产业预判</li><li>3. 全矩阵模型升级</li></ol>
+  
+</article>
+<article class="card" data-src="新智元" data-imp="5" data-seq="4" data-title="deepseek v4「满血版」曝光了！最快明天发布" data-url="https://aiera.com.cn/2026/07/20/other/admin/104980/">
+  <div class="card-head">
+    <span class="src-badge" style="background:#8b5cf6">新智元</span>
+    <span class="imp" title="重要性 5/5"><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><b>&nbsp;5</b></span>
+  </div>
+  <h3 class="title"><a href="https://aiera.com.cn/2026/07/20/other/admin/104980/" target="_blank" rel="noopener">DeepSeek V4「满血版」曝光了！最快明天发布</a></h3>
+  <div class="cat">新智元 · AI · 2026-07-20</div>
+  <div class="summary">新智元称 DeepSeek V4 正式版（GA）最快次日发布，分 Flash 与 Pro 两版，已出现灰度测试与外流 demo。开发者体验总结其整体接近 Opus 4.8、编码直追 GPT-5.6 Sol，Agent 与 3D/SVG 生成显著变好，但价格显著更低，可能再造「DeepSeek 时刻」；文章还给出民间「验货口诀」（思维链第一人称为 I&#x27;m 即 V4）。</div>
+  
+  
+</article>
+<article class="card" data-src="新智元" data-imp="5" data-seq="5" data-title="清华系 200 亿独角兽杀入具身智能！攻破记忆难题，底牌都彻底开源" data-url="https://aiera.com.cn/2026/07/20/other/admin/104936/">
+  <div class="card-head">
+    <span class="src-badge" style="background:#8b5cf6">新智元</span>
+    <span class="imp" title="重要性 5/5"><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><b>&nbsp;5</b></span>
+  </div>
+  <h3 class="title"><a href="https://aiera.com.cn/2026/07/20/other/admin/104936/" target="_blank" rel="noopener">清华系 200 亿独角兽杀入具身智能！攻破记忆难题，底牌都彻底开源</a></h3>
+  <div class="cat">新智元 · AI · 2026-07-20</div>
+  <div class="summary">7 月 19 日 WAIC 现场，面壁智能开源首个具身智能系列模型 MiniCPM-Robot（含 RobotManip 通用 VLA 与 RobotTrack 跟踪导航），攻破机器人「上下文记忆」短板。其 RobotManip 在 RMBench 记忆榜单达 53.5 分，远超 pi0.5 的 10.4 分，解决主流 VLA「单帧反应」导致按 5 次按钮就忘的难题，且底牌彻底开源。</div>
+  <ol class="toc"><li>1. 机器人缺的不是聪明是记忆</li><li>2. MiniCPM-Robot 双模型开源</li><li>3. RMBench 记忆榜单大幅领先</li></ol>
+  
+</article>
+<article class="card" data-src="爱范儿" data-imp="4" data-seq="6" data-title="世界杯冠军刚出炉，我让商汤 u1 pro 做了一份全景赛况图" data-url="https://www.ifanr.com/1672547">
+  <div class="card-head">
+    <span class="src-badge" style="background:#14b8a6">爱范儿</span>
+    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
+  </div>
+  <h3 class="title"><a href="https://www.ifanr.com/1672547" target="_blank" rel="noopener">世界杯冠军刚出炉，我让商汤 U1 Pro 做了一份全景赛况图</a></h3>
+  <div class="cat">爱范儿 · 消费科技 · 2026-07-20</div>
+  <div class="summary">商汤在 WAIC 发布日日新 SenseNova U1 Pro，是业内首个将「理解·生成·行动」原生统一的多模态智能体基座模型，支持原生 8K 输出，主打交付级高精度视觉内容（商业海报、信息图、学术设计与工业图解等）。文章以世界杯冠军海报实测为例，说明其在标题、日期、Logo 等密集文字与排版准确性上明显优于常规娱乐级生图，更贴近设计师的实际交付需求。</div>
+  <ol class="toc"><li>1. 从生图到交付级设计</li><li>2. U1 Pro 的核心能力</li><li>3. 世界杯海报实测</li></ol>
+  
+</article>
+<article class="card" data-src="爱范儿" data-imp="4" data-seq="7" data-title="实测千问 qwen3.8 预览版，国产模型开始围攻 fable 5" data-url="https://www.ifanr.com/1672515">
+  <div class="card-head">
+    <span class="src-badge" style="background:#14b8a6">爱范儿</span>
+    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
+  </div>
+  <h3 class="title"><a href="https://www.ifanr.com/1672515" target="_blank" rel="noopener">实测千问 Qwen3.8 预览版，国产模型开始围攻 Fable 5</a></h3>
+  <div class="cat">爱范儿 · 消费科技 · 2026-07-20</div>
+  <div class="summary">阿里发布千问新一代旗舰预览版 Qwen3.8-Max-Preview，参数量 2.4T，官方称其综合能力仅次于 Fable 5。文章用 Qoder 实测其网站设计与编程能力，上下文窗口最多可拉至 1M；网友讨论集中在「预览 ≠ 交付」，等待正式版权重、benchmark 与激活参数量的披露。</div>
+  
+  
+</article>
+<article class="card" data-src="量子位" data-imp="4" data-seq="8" data-title="waic 2026 收官｜范式大会亮点集锦，见证 ai 2.0 从技术突破走向产业实践" data-url="https://www.qbitai.com/2026/07/455963.html">
+  <div class="card-head">
+    <span class="src-badge" style="background:#3b6ef5">量子位</span>
+    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
+  </div>
+  <h3 class="title"><a href="https://www.qbitai.com/2026/07/455963.html" target="_blank" rel="noopener">WAIC 2026 收官｜范式大会亮点集锦，见证 AI 2.0 从技术突破走向产业实践</a></h3>
+  <div class="cat">量子位 · AI · 2026-07-20</div>
+  <div class="summary">2026 世界人工智能大会（WAIC 2026）于 7 月 20 日在上海落幕。范式以「Token 工厂」体系为核心展示全栈 AI 能力，覆盖异构算力统一调度（HAMi）、国产算力模型适配（ModelHub XC）、AGI 平台 Phanthy 及跨平台具身/编程/影视 Agent，完整呈现 AI 2.0 从技术创新、工程落地到产业赋能的闭环，并入选全球可信工业 AI 解决方案。</div>
+  
+  
+</article>
+<article class="card" data-src="量子位" data-imp="4" data-seq="9" data-title="当 ai 进入最依赖「人」的行业：一家四线城市康复机构利润增长 40%" data-url="https://www.qbitai.com/2026/07/455791.html">
   <div class="card-head">
     <span class="src-badge" style="background:#3b6ef5">量子位</span>
     <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
@@ -134,28 +158,6 @@
   <h3 class="title"><a href="https://www.qbitai.com/2026/07/455791.html" target="_blank" rel="noopener">当 AI 进入最依赖「人」的行业：一家四线城市康复机构利润增长 40%</a></h3>
   <div class="cat">量子位 · AI · 2026-07-20</div>
   <div class="summary">河南平顶山等三四线城市的特需儿童康复机构引入大米和小米研发的 RICE AI 系统，由 AI 同步记录行为数据、分析干预进展并生成课程建议，缓解行业百万级康复师缺口。文章称一家四线城市机构借此实现利润增长 40%，说明 AI 在高度依赖「人」的康复行业已开始创造真实产值。</div>
-  
-  
-</article>
-<article class="card" data-src="量子位" data-imp="3" data-seq="8" data-title="全球首发技术路线 + 全域联盟双轮破局，ai for adanes 释放先进核能新质生产力" data-url="https://www.qbitai.com/2026/07/455729.html">
-  <div class="card-head">
-    <span class="src-badge" style="background:#3b6ef5">量子位</span>
-    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
-  </div>
-  <h3 class="title"><a href="https://www.qbitai.com/2026/07/455729.html" target="_blank" rel="noopener">全球首发技术路线 + 全域联盟双轮破局，AI for ADANES 释放先进核能新质生产力</a></h3>
-  <div class="cat">量子位 · AI · 2026-07-20</div>
-  <div class="summary">WAIC 期间中科院近代物理所主办「AI 与先进核能」分论坛，全球首发 AI for ADANES 技术路线、成立国内首个全域创新联盟并发布八大行业共识。文章强调 AI 赋能四代核能可匹配能源安全与零碳算力需求，核能为本土可控清洁能源，有望重构数字产业与核能双向增长逻辑。</div>
-  
-  
-</article>
-<article class="card" data-src="量子位" data-imp="3" data-seq="9" data-title="启鸣达人首发《世界模型驱动的教育 agi 白皮书》｜ waic 2026" data-url="https://www.qbitai.com/2026/07/455730.html">
-  <div class="card-head">
-    <span class="src-badge" style="background:#3b6ef5">量子位</span>
-    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
-  </div>
-  <h3 class="title"><a href="https://www.qbitai.com/2026/07/455730.html" target="_blank" rel="noopener">启鸣达人首发《世界模型驱动的教育 AGI 白皮书》｜ WAIC 2026</a></h3>
-  <div class="cat">量子位 · AI · 2026-07-20</div>
-  <div class="summary">天立国际旗下启鸣达人在 WAIC 首发《世界模型驱动的教育 AGI 白皮书》，以认知世界模型（CWM）为底座，通过教育仿真器、规划器、渲染器与 LAM 学习闭环构建教育 AGI 框架，并入选中国信通院智能体创新实践案例，标志教育领域通用人工智能迈入体系化探索阶段。</div>
   
   
 </article>
@@ -170,51 +172,7 @@
   
   
 </article>
-<article class="card" data-src="量子位" data-imp="3" data-seq="11" data-title="waic 之后，重新理解与爱为舞：一家 ai 原生企业的学习场景验证" data-url="https://www.qbitai.com/2026/07/455596.html">
-  <div class="card-head">
-    <span class="src-badge" style="background:#3b6ef5">量子位</span>
-    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
-  </div>
-  <h3 class="title"><a href="https://www.qbitai.com/2026/07/455596.html" target="_blank" rel="noopener">WAIC 之后，重新理解与爱为舞：一家 AI 原生企业的学习场景验证</a></h3>
-  <div class="cat">量子位 · AI · 2026-07-20</div>
-  <div class="summary">WAIC 落幕后，文章观察 AI 竞争焦点正从「概念成立」转向「场景成立」。以 AI 原生企业「与爱为舞」在现场落地「爱学 AI 学习实验室」为例，说明没有旧流程包袱的原生企业更可能把 Agent、数字人、多模态生成组织为真实可交互的学习流程，跑出新产品形态与服务关系。</div>
-  
-  
-</article>
-<article class="card" data-src="量子位" data-imp="2" data-seq="12" data-title="gmi cloud「无界造物节」在 waic 圆满完赛，「maas + 创意」赋能 ai 创作新生态" data-url="https://www.qbitai.com/2026/07/455593.html">
-  <div class="card-head">
-    <span class="src-badge" style="background:#3b6ef5">量子位</span>
-    <span class="imp" title="重要性 2/5"><i class="dot on" style="--c:#94a3b8"></i><i class="dot on" style="--c:#94a3b8"></i><i class="dot off" style="--c:#94a3b8"></i><i class="dot off" style="--c:#94a3b8"></i><i class="dot off" style="--c:#94a3b8"></i><b>&nbsp;2</b></span>
-  </div>
-  <h3 class="title"><a href="https://www.qbitai.com/2026/07/455593.html" target="_blank" rel="noopener">GMI Cloud「无界造物节」在 WAIC 圆满完赛，「MaaS + 创意」赋能 AI 创作新生态</a></h3>
-  <div class="cat">量子位 · AI · 2026-07-20</div>
-  <div class="summary">GMI Cloud 联合 HappyHorse 在 WAIC 举办「无界造物节」决赛，设 AI Coding 与 AI Video 双赛道。GMI Cloud 推理引擎（H200/H100）提供算力底座，HappyHorse 文生视频模型支撑创作，面向普通开发者与视频创作者降低 AI 创作门槛。</div>
-  
-  
-</article>
-<article class="card" data-src="新智元" data-imp="5" data-seq="13" data-title="「世界模型元年」定了！昆仑万维 waic 发布全矩阵升级：让 ai 懂世界、能行动" data-url="https://aiera.com.cn/2026/07/20/other/admin/104994/">
-  <div class="card-head">
-    <span class="src-badge" style="background:#8b5cf6">新智元</span>
-    <span class="imp" title="重要性 5/5"><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><b>&nbsp;5</b></span>
-  </div>
-  <h3 class="title"><a href="https://aiera.com.cn/2026/07/20/other/admin/104994/" target="_blank" rel="noopener">「世界模型元年」定了！昆仑万维 WAIC 发布全矩阵升级：让 AI 懂世界、能行动</a></h3>
-  <div class="cat">新智元 · AI · 2026-07-20</div>
-  <div class="summary">昆仑万维在 WAIC 举办「世界模型与多模态范式跃迁」论坛，董事长方汉宣布 2026 年为「世界模型元年」，并发布 Matrix-Game 3.5 世界模型、Mureka v9.5 与 O3 音乐模型。文章指出 AI 核心命题正从「生成」转向「理解与交互」，世界模型将走出屏幕进入物理世界，游戏行业将率先被改变。</div>
-  <ol class="toc"><li>1. 2026 世界模型元年</li><li>2. 三大产业预判</li><li>3. 全矩阵模型升级</li></ol>
-  
-</article>
-<article class="card" data-src="新智元" data-imp="5" data-seq="14" data-title="deepseek v4「满血版」曝光了！最快明天发布" data-url="https://aiera.com.cn/2026/07/20/other/admin/104980/">
-  <div class="card-head">
-    <span class="src-badge" style="background:#8b5cf6">新智元</span>
-    <span class="imp" title="重要性 5/5"><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><b>&nbsp;5</b></span>
-  </div>
-  <h3 class="title"><a href="https://aiera.com.cn/2026/07/20/other/admin/104980/" target="_blank" rel="noopener">DeepSeek V4「满血版」曝光了！最快明天发布</a></h3>
-  <div class="cat">新智元 · AI · 2026-07-20</div>
-  <div class="summary">新智元称 DeepSeek V4 正式版（GA）最快次日发布，分 Flash 与 Pro 两版，已出现灰度测试与外流 demo。开发者体验总结其整体接近 Opus 4.8、编码直追 GPT-5.6 Sol，Agent 与 3D/SVG 生成显著变好，但价格显著更低，可能再造「DeepSeek 时刻」；文章还给出民间「验货口诀」（思维链第一人称为 I&#x27;m 即 V4）。</div>
-  
-  
-</article>
-<article class="card" data-src="新智元" data-imp="4" data-seq="15" data-title="claude 杀入全美教室：一周干 49 小时的老师，终于等来免费 ai 助教" data-url="https://aiera.com.cn/2026/07/20/other/admin/104963/">
+<article class="card" data-src="新智元" data-imp="4" data-seq="11" data-title="claude 杀入全美教室：一周干 49 小时的老师，终于等来免费 ai 助教" data-url="https://aiera.com.cn/2026/07/20/other/admin/104963/">
   <div class="card-head">
     <span class="src-badge" style="background:#8b5cf6">新智元</span>
     <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
@@ -225,7 +183,7 @@
   
   
 </article>
-<article class="card" data-src="新智元" data-imp="4" data-seq="16" data-title="告别炫技！机器人杀进 618 仓库，真开始替人分拣了" data-url="https://aiera.com.cn/2026/07/20/other/admin/104950/">
+<article class="card" data-src="新智元" data-imp="4" data-seq="12" data-title="告别炫技！机器人杀进 618 仓库，真开始替人分拣了" data-url="https://aiera.com.cn/2026/07/20/other/admin/104950/">
   <div class="card-head">
     <span class="src-badge" style="background:#8b5cf6">新智元</span>
     <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
@@ -236,29 +194,7 @@
   
   
 </article>
-<article class="card" data-src="新智元" data-imp="5" data-seq="17" data-title="清华系 200 亿独角兽杀入具身智能！攻破记忆难题，底牌都彻底开源" data-url="https://aiera.com.cn/2026/07/20/other/admin/104936/">
-  <div class="card-head">
-    <span class="src-badge" style="background:#8b5cf6">新智元</span>
-    <span class="imp" title="重要性 5/5"><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><b>&nbsp;5</b></span>
-  </div>
-  <h3 class="title"><a href="https://aiera.com.cn/2026/07/20/other/admin/104936/" target="_blank" rel="noopener">清华系 200 亿独角兽杀入具身智能！攻破记忆难题，底牌都彻底开源</a></h3>
-  <div class="cat">新智元 · AI · 2026-07-20</div>
-  <div class="summary">7 月 19 日 WAIC 现场，面壁智能开源首个具身智能系列模型 MiniCPM-Robot（含 RobotManip 通用 VLA 与 RobotTrack 跟踪导航），攻破机器人「上下文记忆」短板。其 RobotManip 在 RMBench 记忆榜单达 53.5 分，远超 pi0.5 的 10.4 分，解决主流 VLA「单帧反应」导致按 5 次按钮就忘的难题，且底牌彻底开源。</div>
-  <ol class="toc"><li>1. 机器人缺的不是聪明是记忆</li><li>2. MiniCPM-Robot 双模型开源</li><li>3. RMBench 记忆榜单大幅领先</li></ol>
-  
-</article>
-<article class="card" data-src="新智元" data-imp="3" data-seq="18" data-title="告别审稿抽卡！全新 llm 校准机制，给 ai 顶会统一打分尺度" data-url="https://aiera.com.cn/2026/07/20/other/admin/104919/">
-  <div class="card-head">
-    <span class="src-badge" style="background:#8b5cf6">新智元</span>
-    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
-  </div>
-  <h3 class="title"><a href="https://aiera.com.cn/2026/07/20/other/admin/104919/" target="_blank" rel="noopener">告别审稿抽卡！全新 LLM 校准机制，给 AI 顶会统一打分尺度</a></h3>
-  <div class="cat">新智元 · AI · 2026-07-20</div>
-  <div class="summary">面对 AI 顶会投稿量翻倍、审稿打分尺度不一的「抽卡」困境，华中科技大学团队在 ICML 2026 Position Paper 提出用 LLM 校准「评语—分数」映射，而非让 LLM 直接审稿。文章认为评审偏差多出在「定性判断压缩为分数」的第二步，校准机制可提升同行评审的公平性与稳定性。</div>
-  
-  
-</article>
-<article class="card" data-src="新智元" data-imp="4" data-seq="19" data-title="waic 华山论剑，罕见 ai 新共识：机器人 chatgpt 时刻，最快两年！" data-url="https://aiera.com.cn/2026/07/20/other/admin/104906/">
+<article class="card" data-src="新智元" data-imp="4" data-seq="13" data-title="waic 华山论剑，罕见 ai 新共识：机器人 chatgpt 时刻，最快两年！" data-url="https://aiera.com.cn/2026/07/20/other/admin/104906/">
   <div class="card-head">
     <span class="src-badge" style="background:#8b5cf6">新智元</span>
     <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
@@ -269,7 +205,7 @@
   <ol class="toc"><li>1. 各家路线分歧</li><li>2. 智元 / PI / Dyna / 清华立场</li><li>3. 机器人 ChatGPT 时刻预判</li></ol>
   
 </article>
-<article class="card" data-src="新智元" data-imp="4" data-seq="20" data-title="agent 拉爆算力？中国杀出新物种：日冲 10 万亿 token，还赚钱了" data-url="https://aiera.com.cn/2026/07/20/other/admin/104887/">
+<article class="card" data-src="新智元" data-imp="4" data-seq="14" data-title="agent 拉爆算力？中国杀出新物种：日冲 10 万亿 token，还赚钱了" data-url="https://aiera.com.cn/2026/07/20/other/admin/104887/">
   <div class="card-head">
     <span class="src-badge" style="background:#8b5cf6">新智元</span>
     <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
@@ -280,7 +216,7 @@
   <ol class="toc"><li>1. Agent 拉爆算力需求</li><li>2. Prefill / Decode 拆分</li><li>3. 异构混合推理思路</li></ol>
   
 </article>
-<article class="card" data-src="36氪" data-imp="4" data-seq="21" data-title="waic 上，ai 开始接管人类的欲望" data-url="https://36kr.com/p/3903687507904387">
+<article class="card" data-src="36氪" data-imp="4" data-seq="15" data-title="waic 上，ai 开始接管人类的欲望" data-url="https://36kr.com/p/3903687507904387">
   <div class="card-head">
     <span class="src-badge" style="background:#ff6a3d">36氪</span>
     <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
@@ -291,7 +227,62 @@
   <ol class="toc"><li>1. 陪伴与情欲的具身化</li><li>2. 决策外包给 AI</li><li>3. 商业形态分化</li></ol>
   
 </article>
-<article class="card" data-src="36氪" data-imp="3" data-seq="22" data-title="硬氪首发｜一台 80cm 高的毛绒人形机器人，配一套面向未来的自研 os 系统" data-url="https://36kr.com/p/3903761449617027">
+<article class="card" data-src="爱范儿" data-imp="3" data-seq="16" data-title="早报｜曝月之暗面最快半年内上市 / 荣耀 robot phone 开启预约 / idc：2030 年全球活跃智能体将超 22 亿个" data-url="https://www.ifanr.com/1672471">
+  <div class="card-head">
+    <span class="src-badge" style="background:#14b8a6">爱范儿</span>
+    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
+  </div>
+  <h3 class="title"><a href="https://www.ifanr.com/1672471" target="_blank" rel="noopener">早报｜曝月之暗面最快半年内上市 / 荣耀 Robot Phone 开启预约 / IDC：2030 年全球活跃智能体将超 22 亿个</a></h3>
+  <div class="cat">爱范儿 · 消费科技 · 2026-07-20</div>
+  <div class="summary">多条 AI 资讯汇总：月之暗面最快半年内上市；荣耀 Robot Phone 开启预约，支持跨应用任务与云台互动；IDC 预计 2030 年全球活跃智能体将超过 22 亿个；Meta 与 Anthropic 商谈最高 100 亿美元算力租赁；Claude Fable 5 宣布永久可用（Max/Team Premium 限额 50%）；商汤 U1 Pro、Qwen3.8 等密集发布。</div>
+  
+  
+</article>
+<article class="card" data-src="量子位" data-imp="3" data-seq="17" data-title="全球首发技术路线 + 全域联盟双轮破局，ai for adanes 释放先进核能新质生产力" data-url="https://www.qbitai.com/2026/07/455729.html">
+  <div class="card-head">
+    <span class="src-badge" style="background:#3b6ef5">量子位</span>
+    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
+  </div>
+  <h3 class="title"><a href="https://www.qbitai.com/2026/07/455729.html" target="_blank" rel="noopener">全球首发技术路线 + 全域联盟双轮破局，AI for ADANES 释放先进核能新质生产力</a></h3>
+  <div class="cat">量子位 · AI · 2026-07-20</div>
+  <div class="summary">WAIC 期间中科院近代物理所主办「AI 与先进核能」分论坛，全球首发 AI for ADANES 技术路线、成立国内首个全域创新联盟并发布八大行业共识。文章强调 AI 赋能四代核能可匹配能源安全与零碳算力需求，核能为本土可控清洁能源，有望重构数字产业与核能双向增长逻辑。</div>
+  
+  
+</article>
+<article class="card" data-src="量子位" data-imp="3" data-seq="18" data-title="启鸣达人首发《世界模型驱动的教育 agi 白皮书》｜ waic 2026" data-url="https://www.qbitai.com/2026/07/455730.html">
+  <div class="card-head">
+    <span class="src-badge" style="background:#3b6ef5">量子位</span>
+    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
+  </div>
+  <h3 class="title"><a href="https://www.qbitai.com/2026/07/455730.html" target="_blank" rel="noopener">启鸣达人首发《世界模型驱动的教育 AGI 白皮书》｜ WAIC 2026</a></h3>
+  <div class="cat">量子位 · AI · 2026-07-20</div>
+  <div class="summary">天立国际旗下启鸣达人在 WAIC 首发《世界模型驱动的教育 AGI 白皮书》，以认知世界模型（CWM）为底座，通过教育仿真器、规划器、渲染器与 LAM 学习闭环构建教育 AGI 框架，并入选中国信通院智能体创新实践案例，标志教育领域通用人工智能迈入体系化探索阶段。</div>
+  
+  
+</article>
+<article class="card" data-src="量子位" data-imp="3" data-seq="19" data-title="waic 之后，重新理解与爱为舞：一家 ai 原生企业的学习场景验证" data-url="https://www.qbitai.com/2026/07/455596.html">
+  <div class="card-head">
+    <span class="src-badge" style="background:#3b6ef5">量子位</span>
+    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
+  </div>
+  <h3 class="title"><a href="https://www.qbitai.com/2026/07/455596.html" target="_blank" rel="noopener">WAIC 之后，重新理解与爱为舞：一家 AI 原生企业的学习场景验证</a></h3>
+  <div class="cat">量子位 · AI · 2026-07-20</div>
+  <div class="summary">WAIC 落幕后，文章观察 AI 竞争焦点正从「概念成立」转向「场景成立」。以 AI 原生企业「与爱为舞」在现场落地「爱学 AI 学习实验室」为例，说明没有旧流程包袱的原生企业更可能把 Agent、数字人、多模态生成组织为真实可交互的学习流程，跑出新产品形态与服务关系。</div>
+  
+  
+</article>
+<article class="card" data-src="新智元" data-imp="3" data-seq="20" data-title="告别审稿抽卡！全新 llm 校准机制，给 ai 顶会统一打分尺度" data-url="https://aiera.com.cn/2026/07/20/other/admin/104919/">
+  <div class="card-head">
+    <span class="src-badge" style="background:#8b5cf6">新智元</span>
+    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
+  </div>
+  <h3 class="title"><a href="https://aiera.com.cn/2026/07/20/other/admin/104919/" target="_blank" rel="noopener">告别审稿抽卡！全新 LLM 校准机制，给 AI 顶会统一打分尺度</a></h3>
+  <div class="cat">新智元 · AI · 2026-07-20</div>
+  <div class="summary">面对 AI 顶会投稿量翻倍、审稿打分尺度不一的「抽卡」困境，华中科技大学团队在 ICML 2026 Position Paper 提出用 LLM 校准「评语—分数」映射，而非让 LLM 直接审稿。文章认为评审偏差多出在「定性判断压缩为分数」的第二步，校准机制可提升同行评审的公平性与稳定性。</div>
+  
+  
+</article>
+<article class="card" data-src="36氪" data-imp="3" data-seq="21" data-title="硬氪首发｜一台 80cm 高的毛绒人形机器人，配一套面向未来的自研 os 系统" data-url="https://36kr.com/p/3903761449617027">
   <div class="card-head">
     <span class="src-badge" style="background:#ff6a3d">36氪</span>
     <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
@@ -302,7 +293,7 @@
   
   
 </article>
-<article class="card" data-src="36氪" data-imp="3" data-seq="23" data-title="在 waic 地下一层找机会的年轻人：光鲜是过去，眼下是生存" data-url="https://36kr.com/p/3903396279125888">
+<article class="card" data-src="36氪" data-imp="3" data-seq="22" data-title="在 waic 地下一层找机会的年轻人：光鲜是过去，眼下是生存" data-url="https://36kr.com/p/3903396279125888">
   <div class="card-head">
     <span class="src-badge" style="background:#ff6a3d">36氪</span>
     <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
@@ -313,7 +304,7 @@
   
   
 </article>
-<article class="card" data-src="36氪" data-imp="3" data-seq="24" data-title="谁还在卷参数？waic2026 全是能干活的实体 ai！" data-url="https://36kr.com/p/3903383663478403">
+<article class="card" data-src="36氪" data-imp="3" data-seq="23" data-title="谁还在卷参数？waic2026 全是能干活的实体 ai！" data-url="https://36kr.com/p/3903383663478403">
   <div class="card-head">
     <span class="src-badge" style="background:#ff6a3d">36氪</span>
     <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
@@ -324,7 +315,7 @@
   
   
 </article>
-<article class="card" data-src="机器之心" data-imp="3" data-seq="25" data-title="干寻智能最强大脑亮相 waic：攻克「金鱼记忆」，终结单一任务 demo 内卷" data-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651045079&amp;idx=1&amp;sn=9b32aa87b5c1e23463892e99d2c74aa4">
+<article class="card" data-src="机器之心" data-imp="3" data-seq="24" data-title="干寻智能最强大脑亮相 waic：攻克「金鱼记忆」，终结单一任务 demo 内卷" data-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651045079&amp;idx=1&amp;sn=9b32aa87b5c1e23463892e99d2c74aa4">
   <div class="card-head">
     <span class="src-badge" style="background:#94a3b8">机器之心</span>
     <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
@@ -335,18 +326,7 @@
   
   
 </article>
-<article class="card" data-src="机器之心" data-imp="2" data-seq="26" data-title="定义世界的年轻人｜2026 waic 云帆奖得主揭晓" data-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651045394&amp;idx=1&amp;sn=0bb759bfbe3f5e6bd597cebb0121b675">
-  <div class="card-head">
-    <span class="src-badge" style="background:#94a3b8">机器之心</span>
-    <span class="imp" title="重要性 2/5"><i class="dot on" style="--c:#94a3b8"></i><i class="dot on" style="--c:#94a3b8"></i><i class="dot off" style="--c:#94a3b8"></i><i class="dot off" style="--c:#94a3b8"></i><i class="dot off" style="--c:#94a3b8"></i><b>&nbsp;2</b></span>
-  </div>
-  <h3 class="title"><a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651045394&amp;idx=1&amp;sn=0bb759bfbe3f5e6bd597cebb0121b675" target="_blank" rel="noopener">定义世界的年轻人｜2026 WAIC 云帆奖得主揭晓</a></h3>
-  <div class="cat">机器之心 · AI · 发布时间未知</div>
-  <div class="summary">机器之心报道 2026 WAIC 云帆奖得主揭晓，主题「定义世界的年轻人」。本条正文受微信反爬限制未能获取，以上基于标题整理，建议点开原文查看详情。</div>
-  
-  
-</article>
-<article class="card" data-src="机器之心" data-imp="3" data-seq="27" data-title="上手简单，安全可靠，teleagent 星辰超级智能体不搞极客玩具那一套" data-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651045392&amp;idx=1&amp;sn=f08186eb6a407fe6cd1b8405f553d209">
+<article class="card" data-src="机器之心" data-imp="3" data-seq="25" data-title="上手简单，安全可靠，teleagent 星辰超级智能体不搞极客玩具那一套" data-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651045392&amp;idx=1&amp;sn=f08186eb6a407fe6cd1b8405f553d209">
   <div class="card-head">
     <span class="src-badge" style="background:#94a3b8">机器之心</span>
     <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
@@ -357,7 +337,7 @@
   
   
 </article>
-<article class="card" data-src="机器之心" data-imp="3" data-seq="28" data-title="打破模态壁垒，11b 通用底座，上智院开放多模态科学基础模型「神珍」" data-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651045392&amp;idx=3&amp;sn=a5c40252a6af8fadd7707725b31cd3e3">
+<article class="card" data-src="机器之心" data-imp="3" data-seq="26" data-title="打破模态壁垒，11b 通用底座，上智院开放多模态科学基础模型「神珍」" data-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651045392&amp;idx=3&amp;sn=a5c40252a6af8fadd7707725b31cd3e3">
   <div class="card-head">
     <span class="src-badge" style="background:#94a3b8">机器之心</span>
     <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
@@ -368,7 +348,7 @@
   
   
 </article>
-<article class="card" data-src="机器之心" data-imp="3" data-seq="29" data-title="世界模型元年：这一次，昆仑万维又踩准了 ai 的产业节奏" data-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651045375&amp;idx=2&amp;sn=a3f87dcd0d4d6de941195119492b785f">
+<article class="card" data-src="机器之心" data-imp="3" data-seq="27" data-title="世界模型元年：这一次，昆仑万维又踩准了 ai 的产业节奏" data-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651045375&amp;idx=2&amp;sn=a3f87dcd0d4d6de941195119492b785f">
   <div class="card-head">
     <span class="src-badge" style="background:#94a3b8">机器之心</span>
     <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
@@ -376,6 +356,28 @@
   <h3 class="title"><a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651045375&amp;idx=2&amp;sn=a3f87dcd0d4d6de941195119492b785f" target="_blank" rel="noopener">世界模型元年：这一次，昆仑万维又踩准了 AI 的产业节奏</a></h3>
   <div class="cat">机器之心 · AI · 发布时间未知</div>
   <div class="summary">机器之心从自身视角解读昆仑万维 WAIC 发布，称其「又踩准了 AI 的产业节奏」，呼应「世界模型元年」。本条正文受微信反爬限制未能获取，以上基于标题整理，建议点开原文查看详情。</div>
+  
+  
+</article>
+<article class="card" data-src="量子位" data-imp="2" data-seq="28" data-title="gmi cloud「无界造物节」在 waic 圆满完赛，「maas + 创意」赋能 ai 创作新生态" data-url="https://www.qbitai.com/2026/07/455593.html">
+  <div class="card-head">
+    <span class="src-badge" style="background:#3b6ef5">量子位</span>
+    <span class="imp" title="重要性 2/5"><i class="dot on" style="--c:#94a3b8"></i><i class="dot on" style="--c:#94a3b8"></i><i class="dot off" style="--c:#94a3b8"></i><i class="dot off" style="--c:#94a3b8"></i><i class="dot off" style="--c:#94a3b8"></i><b>&nbsp;2</b></span>
+  </div>
+  <h3 class="title"><a href="https://www.qbitai.com/2026/07/455593.html" target="_blank" rel="noopener">GMI Cloud「无界造物节」在 WAIC 圆满完赛，「MaaS + 创意」赋能 AI 创作新生态</a></h3>
+  <div class="cat">量子位 · AI · 2026-07-20</div>
+  <div class="summary">GMI Cloud 联合 HappyHorse 在 WAIC 举办「无界造物节」决赛，设 AI Coding 与 AI Video 双赛道。GMI Cloud 推理引擎（H200/H100）提供算力底座，HappyHorse 文生视频模型支撑创作，面向普通开发者与视频创作者降低 AI 创作门槛。</div>
+  
+  
+</article>
+<article class="card" data-src="机器之心" data-imp="2" data-seq="29" data-title="定义世界的年轻人｜2026 waic 云帆奖得主揭晓" data-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651045394&amp;idx=1&amp;sn=0bb759bfbe3f5e6bd597cebb0121b675">
+  <div class="card-head">
+    <span class="src-badge" style="background:#94a3b8">机器之心</span>
+    <span class="imp" title="重要性 2/5"><i class="dot on" style="--c:#94a3b8"></i><i class="dot on" style="--c:#94a3b8"></i><i class="dot off" style="--c:#94a3b8"></i><i class="dot off" style="--c:#94a3b8"></i><i class="dot off" style="--c:#94a3b8"></i><b>&nbsp;2</b></span>
+  </div>
+  <h3 class="title"><a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651045394&amp;idx=1&amp;sn=0bb759bfbe3f5e6bd597cebb0121b675" target="_blank" rel="noopener">定义世界的年轻人｜2026 WAIC 云帆奖得主揭晓</a></h3>
+  <div class="cat">机器之心 · AI · 发布时间未知</div>
+  <div class="summary">机器之心报道 2026 WAIC 云帆奖得主揭晓，主题「定义世界的年轻人」。本条正文受微信反爬限制未能获取，以上基于标题整理，建议点开原文查看详情。</div>
   
   
 </article>
