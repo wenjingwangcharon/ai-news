@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI 科技商业日报 · 2026-11-01</title>
+<title>AI 科技商业日报 · 2026-11-02</title>
 <style>
   :root{--bg:#f5f6f8;--card:#fff;--text:#1d2129;--muted:#86909c;--border:#e5e6eb;--accent:#3b6ef5;}
   *{box-sizing:border-box}
@@ -49,247 +49,302 @@
 <div class="container">
   <header>
     <h1>AI 科技商业日报</h1>
-    <div class="sub">📅 2026-11-01 · 由 <code>ai-news-weekly</code> skill 自动生成</div>
+    <div class="sub">📅 2026-11-02 · 由 <code>ai-news-weekly</code> skill 自动生成</div>
     <div class="meta-row">
-      <span class="meta-chip">信源：新智元, 智东西, 机器之心, 量子位, 极客公园</span><span class="meta-chip">收录文章：21 篇（自动抓取 + Agent 摘要）</span><span class="meta-chip">抓取异常：3 家信源失败（36氪、APPSO、虎嗅）</span>
+      <span class="meta-chip">信源：新智元, 爱范儿, 智东西, 量子位, 极客公园, 机器之心</span><span class="meta-chip">收录文章：26 篇（自动抓取 + Agent 摘要）</span><span class="meta-chip">抓取异常：3 家信源失败（36氪、APPSO、虎嗅）</span>
     </div>
   </header>
 
   <section class="trend-summary">
     <h2>📈 今日趋势</h2>
-    <p>今日 AI 主线集中在「智能体架构升级」与「算力基础设施突破」两端。焦点一：DeepSeek 公布 Super-agent 底层架构、百度智能云推出 Agent Infra 底座，智能体从单任务走向持续在线、并发调度的系统级范式；焦点二：谷歌 TPU 首次在轨运行 Gemma 4、趋境科技国产异构推理方案与 XHEART 智驾芯片，把算力战场推向太空与车端；焦点三：Anthropic 取消 Ultra 5 小时限额、苹果国行 Apple 智能下周开测，头部产品加速商业化落地。</p>
+    <p>今日主线围绕「模型能力跃迁 + AI 商业化落地」双线展开。焦点一：OpenAI 宣布 12 月起 ChatGPT 与 Codex 额度合池、统一按 Token 计量，Agent 工作流被正式嵌入主界面；焦点二：科研与基础设施多点突破——GPT-6 联手 Claude 终结 38 年混沌难题、西湖大学成立世界模型研究中心、清华代数世界模型与万卡集群显存调度成果相继亮相；焦点三：具身智能持续升温，Meta 中国造人形机器人、蚂蚁押注机器人皮肤、多家团队刷新真机评测。</p>
   </section>
 
   <div class="sort-note">卡片已按重要性排序（高 → 低）</div>
   <div class="grid" id="grid">
-    <article class="card" data-src="智东西" data-imp="5" data-seq="1" data-title="deepseek又开源了！公布super agent架构" data-url="https://www.zhidx.com/p/606311.html">
-  <div class="card-head">
-    <span class="src-badge" style="background:#94a3b8">智东西</span>
-    <span class="imp" title="重要性 5/5"><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><b>&nbsp;5</b></span>
-  </div>
-  <h3 class="title"><a href="https://www.zhidx.com/p/606311.html" target="_blank" rel="noopener">DeepSeek又开源了！公布Super agent架构</a></h3>
-  <div class="cat">智东西 · AI/硬科技 · 2026-11-01</div>
-  <div class="summary">DeepSeek Harness 团队于 10 月 31 日晚公布 Super-agent 的底层架构，并非一款新产品，而是把计算机系统的调度、缓存、存算分离、看门狗（Watchdog）等经典思想引入 Agent 的新思路。它面向「持续在线、并行多任务、主动找活干、异常自恢复」的连续实体，提出双层架构、事件驱动、异步多信道交互、存算分离与外部 Watchdog 五大支撑模块，把人从底层执行上移到决策与验收。初步实验中，约一半任务 12.4 分钟内完成、95% 任务 15.7 分钟内完成，显著优于带 Subagent 工具的单 Session；代价是用更多 token 换取时间与稳定性，且实验基于合成负载与简化环境，仅为初步参考。</div>
-  <ol class="toc"><li>1. 四大基础特征：连续 / 高效 / 主动 / 持久</li><li>2. 五大支撑模块与系统架构</li><li>3. 实验数据与局限</li></ol>
-  
-</article>
-<article class="card" data-src="新智元" data-imp="5" data-seq="2" data-title="claude套餐大升级！max 20x 升级为 ultra，5 小时限额直接取消" data-url="https://aiera.com.cn/asi-post.html?id=121750">
+    <article class="card" data-src="新智元" data-imp="5" data-seq="1" data-title="chatgpt要和codex抢额度了！奥特曼一声令下，12月token全部合池" data-url="https://aiera.com.cn/asi-post.html?id=121888">
   <div class="card-head">
     <span class="src-badge" style="background:#8b5cf6">新智元</span>
     <span class="imp" title="重要性 5/5"><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><b>&nbsp;5</b></span>
   </div>
-  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121750" target="_blank" rel="noopener">Claude套餐大升级！Max 20x 升级为 Ultra，5 小时限额直接取消</a></h3>
-  <div class="cat">新智元 · AI · 2026-11-01</div>
-  <div class="summary">Anthropic 将 Max 5x 套餐更名为 Max（100 美元/月）、Max 20x 更名为 Ultra（200 美元/月），并对已认证的 Ultra 账户取消 5 小时用量限额，大多数现有订户即刻生效，新账户仍有临时限制。Claude Code 负责人 Boris Cherny 与 Alex Albert 确认该变化，官方保留每周总限额不变。文章还梳理了定价页「20x 改 10x」的文案差异——实为取消单次窗口限额后改用「每周总上限为 Pro 的 10 倍」口径，并揭示 Ultra 内 Fable 模型设有独立每周 50% 用量防线（约 Pro 每周额度的 5 倍）。</div>
-  
+  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121888" target="_blank" rel="noopener">ChatGPT要和Codex抢额度了！奥特曼一声令下，12月Token全部合池</a></h3>
+  <div class="cat">新智元 · AI · 2026-11-02</div>
+  <div class="summary">OpenAI 在官方支持页悄然上线新文档，宣布自今年 12 月起，ChatGPT 与 Codex 的使用额度将正式合并，并统一按 Token 计量。 这一调整意在将 Work 工作空间的智能体能力直接嵌入 ChatGPT 主界面，实现「Chat 与 Work 合一」的新交互形态。 日常即时聊天仍无限量、不占额度；额度用尽后用户只能等待刷新、升级订阅档位或购买额外 Credits。 开发者社区普遍担忧重度用户「额度焦虑」加剧——白天在 ChatGPT 跑完深度推理，晚上打开 Codex 可能已无额度可用；而 Anthropic 的 Claude 早已采用类似的共享机制。</div>
+  <ol class="toc"><li>1. 额度合池、按 Token 计量、Instant 不扣、用完三条路</li><li>2. 从「聊天｜工作」双标签走向单界面</li><li>3. 与 Claude 共享机制的对比</li></ol>
   
 </article>
-<article class="card" data-src="机器之心" data-imp="5" data-seq="3" data-title="史上首次！谷歌tpu在轨运行gemma 4" data-url="https://mp.weixin.qq.com/s/iFDavXu2LTzNqrcQXjhVzQ">
+<article class="card" data-src="新智元" data-imp="5" data-seq="2" data-title="ai推导出「外星数学」！38年无解混沌难题，被gpt-6联手claude终结" data-url="https://aiera.com.cn/asi-post.html?id=121871">
   <div class="card-head">
-    <span class="src-badge" style="background:#94a3b8">机器之心</span>
+    <span class="src-badge" style="background:#8b5cf6">新智元</span>
     <span class="imp" title="重要性 5/5"><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><i class="dot on" style="--c:#e5484d"></i><b>&nbsp;5</b></span>
   </div>
-  <h3 class="title"><a href="https://mp.weixin.qq.com/s/iFDavXu2LTzNqrcQXjhVzQ" target="_blank" rel="noopener">史上首次！谷歌TPU在轨运行Gemma 4</a></h3>
-  <div class="cat">机器之心 · AI · 发布时间未知</div>
-  <div class="summary">谷歌 Project Suncatcher 原型卫星（10 月 1 日由 SpaceX Transporter-18 送入轨道）搭载 TPU，近日首次在轨运行 Gemma 4 并完成生成式 AI 推理，回传一首太空主题俳句，被 CEO Pichai 称为「Hello World」时刻。卫星目前仅能启动 4 颗 TPU 中的 1 颗、运行约 20 分钟；谷歌计划以大量小型卫星编队 + 星间光通信构建太空数据中心，借助轨道太阳能（发电量可达地面约 8 倍）缓解算力电力瓶颈。这是继英伟达 H100、Starcloud 之后，数据中心级 AI 芯片上天的又一里程碑。</div>
+  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121871" target="_blank" rel="noopener">AI推导出「外星数学」！38年无解混沌难题，被GPT-6联手Claude终结</a></h3>
+  <div class="cat">新智元 · AI · 2026-11-02</div>
+  <div class="summary">理论神经科学家 David Clark 宣布借助 GPT-6 Astra（主力）与 Claude Opus 5.5（收尾），解析了 Sompolinsky 1988 模型的完整李雅普诺夫谱。 这一描述混沌系统全貌的「基因测序图」，自 1988 年起被公认「解析上无解」，悬置长达 38 年。 GPT-6 Astra 开启 Max 模式后独立运算约 100 分钟，给出与超级计算机模拟严丝合缝的初步解析推导，并剥离出可自洽的核心问题。 Clark 称这是他个人在理论神经科学领域最重要的纯理论突破，并感慨 AI 的推导带有「非人类的神秘感」。</div>
   
   
 </article>
-<article class="card" data-src="智东西" data-imp="4" data-seq="4" data-title="0.8b！小米开源新模型，让超级小爱识屏主动办事" data-url="https://www.zhidx.com/p/606258.html">
+<article class="card" data-src="爱范儿" data-imp="4" data-seq="3" data-title="一夜之间，gpt-6.2 astra 和 fable 5.5 双双曝光，ai 圈疯狂 11 月要来了" data-url="https://www.ifanr.com/1687071?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=">
   <div class="card-head">
-    <span class="src-badge" style="background:#94a3b8">智东西</span>
+    <span class="src-badge" style="background:#14b8a6">爱范儿</span>
     <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
   </div>
-  <h3 class="title"><a href="https://www.zhidx.com/p/606258.html" target="_blank" rel="noopener">0.8B！小米开源新模型，让超级小爱识屏主动办事</a></h3>
-  <div class="cat">智东西 · AI/硬科技 · 2026-10-31</div>
-  <div class="summary">小米发布并开源仅 0.8B 参数的轻量级文档理解模型 Xiaomi-OCR-0，将文档解析、关键信息抽取与视觉问答三合一，支撑手机「超级小爱」一键识屏与主动办事能力。在 OmniDocBench v1.6 综合解析基准得 96.83（1B 以下第一），五项文档 VQA 平均 83.2，逼近参数更大的 Qwen3.5-4B。小米公开完整模型权重、推理代码、浏览器 Demo、MCP 服务与 Agent Skill 工具包。</div>
-  <ol class="toc"><li>1. 0.8B「三合一」：解析 / 抽取 / 问答</li><li>2. 真实解析基准登顶，匹敌 Qwen3.5-4B</li></ol>
-  
-</article>
-<article class="card" data-src="新智元" data-imp="4" data-seq="5" data-title="追平deepmind，反超anthropic！国产开源模型闯入ai制药第一梯队" data-url="https://aiera.com.cn/asi-post.html?id=121681">
-  <div class="card-head">
-    <span class="src-badge" style="background:#8b5cf6">新智元</span>
-    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
-  </div>
-  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121681" target="_blank" rel="noopener">追平DeepMind，反超Anthropic！国产开源模型闯入AI制药第一梯队</a></h3>
-  <div class="cat">新智元 · AI · 2026-11-01</div>
-  <div class="summary">中国 AI 制药公司觅深知源（Molence Bio）发布生物分子基础模型 Mol-1 并开源权重。在抗体–抗原结构预测（FoldBench-AB）成功率 75.0%，追平 DeepMind 孵化的 Isomorphic Labs（75.6%），远超其他开源模型；超大复合物组装用单张 H20 GPU 在 10 例中 9 例优于 Anthropic 此前 8×B300 的结果；纳米抗体设计在 17 个靶点获结合候选、最高亲和力 43 pM。论文显示其在小分子、多肽、分子胶等模态均达开源最优水平。</div>
+  <h3 class="title"><a href="https://www.ifanr.com/1687071?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=" target="_blank" rel="noopener">一夜之间，GPT-6.2 Astra 和 Fable 5.5 双双曝光，AI 圈疯狂 11 月要来了</a></h3>
+  <div class="cat">爱范儿 · 消费科技 · 2026-11-02</div>
+  <div class="summary">11 月初，Anthropic 与 OpenAI 的新模型线索几乎同时浮现。开发者在 Anthropic 官网 HTML 源码中发现尚未公布的 Claude Mythos 5.5，并晒出疑似 Fable 5.5 生成的 3D 游戏与交互作品。 OpenAI 未官宣的 GPT-6.2 Astra 也出现在部分用户的 Codex 使用统计与 API 响应记录中，甚至有人声称已成功调用。 爆料显示 Fable 5.5 或支持百万级输入上下文、12.8 万 token 最大输出，每百万输入 token 10 美元；社区猜测 11 月将迎来 Qwen4、GLM-5.5、Hy4 等旗舰模型的集中更新。</div>
   
   
 </article>
-<article class="card" data-src="新智元" data-imp="4" data-seq="6" data-title="一年狂揽24亿，助力中国芯跑赢全球顶配gpu！把算力「逼」上绝命生产线" data-url="https://aiera.com.cn/asi-post.html?id=121647">
+<article class="card" data-src="新智元" data-imp="4" data-seq="4" data-title="deepseek刚发的下一代agent，竟被这家硅谷团队提前半年实现了？" data-url="https://aiera.com.cn/asi-post.html?id=121778">
   <div class="card-head">
     <span class="src-badge" style="background:#8b5cf6">新智元</span>
     <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
   </div>
-  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121647" target="_blank" rel="noopener">一年狂揽24亿，助力中国芯跑赢全球顶配GPU！把算力「逼」上绝命生产线</a></h3>
-  <div class="cat">新智元 · AI · 2026-11-01</div>
-  <div class="summary">10 月 31 日 GAI+C 大会上，趋境科技携手智谱、摩尔线程发布「国产异构推理高品质 AI Token 工厂」，用全系统异构协同（CPU/GPU/内存/网络统一纳入推理）破解普通算力显存带宽瓶颈。其首创国产 PD 异构协同、异构 KV Cache 转换、异构算力计算融合三项技术，同等投入可产出更多有效 Token；实测整体性价比已超越清一色先进算力基线。同日披露趋境科技完成 B 轮超 13 亿元融资，年内累计募资达 24 亿元。</div>
+  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121778" target="_blank" rel="noopener">DeepSeek刚发的下一代Agent，竟被这家硅谷团队提前半年实现了？</a></h3>
+  <div class="cat">新智元 · AI · 2026-11-02</div>
+  <div class="summary">DeepSeek 发布下一代 Agent「Super-agent」理念，主张打破单会话绑定，走向跨会话记忆与多任务并发的「真·Jarvis」时代。 新智元发现，硅谷华人开源团队 AFK-surf（产品 Comma）早在今年 4 月就已工程化实现几乎相同的核心架构，时间上领先全球数月。 两者均采用「Router 主脑 + Worker 四肢」双层架构，并将计算、状态与环境解耦（BYOM）——云端的「脑」可调度用户本地的「手」。 文章认为相似的设计约束必然导出相似架构，印证了当前 Agent 落地天花板已被行业共同触及。</div>
   
   
 </article>
-<article class="card" data-src="量子位" data-imp="4" data-seq="7" data-title="世界模型首次指导设计芯片！超大核npu700tops，99%算力可用" data-url="https://www.qbitai.com/2026/10/506866.html">
+<article class="card" data-src="量子位" data-imp="4" data-seq="5" data-title="三年前布局，今年爆火丨西湖大学成立新中心" data-url="https://www.qbitai.com/2026/11/507076.html">
   <div class="card-head">
     <span class="src-badge" style="background:#3b6ef5">量子位</span>
     <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
   </div>
-  <h3 class="title"><a href="https://www.qbitai.com/2026/10/506866.html" target="_blank" rel="noopener">世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用</a></h3>
-  <div class="cat">量子位 · AI · 2026-10-31</div>
-  <div class="summary">智驾公司 Momenta 关联芯片公司 XHEART 新芯航途正式发布旗舰智驾芯片 X7 Ultra（700 TOPS「大模型算力」），首次以真实量产智驾模型（Momenta R7 世界模型）评测芯片，而非仅看实验室基准。芯片采用超大核 NPU 架构、为 LayerNorm/Softmax/Transpose 等 Transformer 算子开专属硬件通道，实测量化输出相似度 99.99%、NPU 计算利用率 98.7%，内存带宽消耗降 80%、能效升 100%。X7 系列已量产 8 个月、出货超 20 万颗、搭载 10 款车型。</div>
-  
+  <h3 class="title"><a href="https://www.qbitai.com/2026/11/507076.html" target="_blank" rel="noopener">三年前布局，今年爆火丨西湖大学成立新中心</a></h3>
+  <div class="cat">量子位 · AI · 2026-11-01</div>
+  <div class="summary">10 月 31 日，西湖大学在云谷校区成立「西湖世界模型研究中心」，由 AutoLab 主任于开丞教授领衔、金耀初院士任首席科学家。 中心聚焦世界模型与物理智能，目标是赋予 AI 时间、空间、因果推演与物理常识，区别于大语言模型的概率符号预测。 文章梳理了团队从 2023 年「概念世界模型」路线、到孵化物理大模型公司 Awomo（四项国际机器人评测登顶第一）的三年提前布局。 近 90 位业界研发负责人与投资人出席成立大会，标志世界模型正从冷门概念走向高校与产业共同发力。</div>
+  <ol class="toc"><li>1. 从「世界是什么样」到「世界会怎样」</li><li>2. AutoLab 三年概念世界模型路线</li><li>3. Awomo 与下游应用想象</li></ol>
   
 </article>
-<article class="card" data-src="智东西" data-imp="4" data-seq="8" data-title="智能体年均增长超一倍，百度智能云给智能体配了套新底座" data-url="https://www.zhidx.com/p/606278.html">
+<article class="card" data-src="量子位" data-imp="4" data-seq="6" data-title="清华姚期智团队新作：代数世界模型，让ai像牛顿一样思考" data-url="https://www.qbitai.com/2026/11/507031.html">
   <div class="card-head">
-    <span class="src-badge" style="background:#94a3b8">智东西</span>
+    <span class="src-badge" style="background:#3b6ef5">量子位</span>
     <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
   </div>
-  <h3 class="title"><a href="https://www.zhidx.com/p/606278.html" target="_blank" rel="noopener">智能体年均增长超一倍，百度智能云给智能体配了套新底座</a></h3>
-  <div class="cat">智东西 · AI/硬科技 · 2026-10-31</div>
-  <div class="summary">百度智能云在武汉超级智能体大会推出 AI Infra 与 Agent Infra 双层基础设施，应对智能体规模化落地的资源供给、任务执行、数据连接与安全难题。IDC 预测到 2030 年全球活跃 Agent 将达 22.16 亿、年复合增长 139%；我国日均 Token 调用量已超 500 万亿。百度「搭子」通用智能体月活千万级，并在武汉硚口基层治理（覆盖 100 万人口）、松鲜鲜企业增效等产业场景落地，强调沙箱隔离与可观测能力。</div>
-  <ol class="toc"><li>1. 从个人助手到业务主力，智能体闯行业深水区</li><li>2. 智能体要长效，先补「运行底座」</li></ol>
+  <h3 class="title"><a href="https://www.qbitai.com/2026/11/507031.html" target="_blank" rel="noopener">清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考</a></h3>
+  <div class="cat">量子位 · AI · 2026-11-01</div>
+  <div class="summary">清华姚期智、袁洋团队提出「代数世界模型」（AWM），让 AI 从观察与实验中归纳规律、走向形式化证明，而非仅靠试错。 在 ARC-AGI-3 测试中，基于 Opus 5 的 AWM 以 183 关全通、99.9% 得分、平均动作数仅为人类基准 43% 的成绩领先。 面对被人为改成「不可能通关」的关卡，AWM 只需尝试两次即可严格证明不可行，而顶级 GPT-6 Astra 与 Claude Opus 5.5 在 12 次测试中仅 5 次判断正确。 研究借范畴论的「投射/归纳极限」工具，试图教会 AI 像牛顿一样从现象中提炼核心概念与可推演理论。</div>
+  
   
 </article>
-<article class="card" data-src="智东西" data-imp="4" data-seq="9" data-title="198亿到账！ai视频最大单笔融资诞生" data-url="https://www.zhidx.com/p/606207.html">
+<article class="card" data-src="机器之心" data-imp="4" data-seq="7" data-title="sc26顶会论文：八卦炉2—让万卡集群学会临场应变" data-url="https://mp.weixin.qq.com/s/mRn3jiKXabHTFDUI6MbTKA">
   <div class="card-head">
-    <span class="src-badge" style="background:#94a3b8">智东西</span>
+    <span class="src-badge" style="background:#94a3b8">机器之心</span>
     <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
   </div>
-  <h3 class="title"><a href="https://www.zhidx.com/p/606207.html" target="_blank" rel="noopener">198亿到账！AI视频最大单笔融资诞生</a></h3>
-  <div class="cat">智东西 · AI/硬科技 · 2026-10-31</div>
-  <div class="summary">快手公告旗下可灵 AI 增资协议全部条件达成、出资总额约 198.02 亿元交割完成；阿里、腾讯、百度等及多家国资参投，交割后控股股东 Lucky Labs 持 66.68% 股权。可灵二季度营收超 8.5 亿元、同比增超 200%；今年已推 4K 直出视频模型、Kling 4.0（原生最长 30 秒、10-bit HDR）。原快手社区科学线负责人盖坤转任可灵董事兼 CEO。</div>
+  <h3 class="title"><a href="https://mp.weixin.qq.com/s/mRn3jiKXabHTFDUI6MbTKA" target="_blank" rel="noopener">SC26顶会论文：八卦炉2—让万卡集群学会临场应变</a></h3>
+  <div class="cat">机器之心 · AI · 发布时间未知</div>
+  <div class="summary">清华翟季冬团队提出的八卦炉 2（BaGuaLu-2）被 SC26 录用，专门解决 MoE 大模型训练中的「显存尖峰」痛点——少数专家负载突增即可引发单卡 OOM、整任务崩溃。 系统在门控算完、专家算前的窗口根据真实负载实时决策，对算子分别选择保存 / 重计算 / 卸载，实现零配置干预、不终止任务、不重启。 万卡智算中心实测覆盖 128 至 12288 张海光 DCU、188B 至 1.04 万亿参数，平均吞吐较基线高 1.14×，12K 卡下总吞吐 2.012 EFLOPS、平均 MFU 32.9%，代码已开源。</div>
+  <ol class="toc"><li>1. MoE 显存尖峰痛点</li><li>2. 运行时自适应与双批次融合</li><li>3. 多规模实测效果</li></ol>
+  
+</article>
+<article class="card" data-src="机器之心" data-imp="4" data-seq="8" data-title="算力的尽头是电力？从第一性原理看ai基础设施" data-url="https://mp.weixin.qq.com/s/pTFaY3P27Eq9R2uuIQ5EQg">
+  <div class="card-head">
+    <span class="src-badge" style="background:#94a3b8">机器之心</span>
+    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
+  </div>
+  <h3 class="title"><a href="https://mp.weixin.qq.com/s/pTFaY3P27Eq9R2uuIQ5EQg" target="_blank" rel="noopener">算力的尽头是电力？从第一性原理看AI基础设施</a></h3>
+  <div class="cat">机器之心 · AI · 发布时间未知</div>
+  <div class="summary">文章从第一性原理拆解 AI 基础设施瓶颈，指出「算力的尽头是电力」只说对一半——真正卡住扩张的是发电、电网、变压器、散热、封装与资本整条链条，且各环节建设速度迥异。 IEA 数据显示 2025 年五家科技巨头资本开支超 4000 亿美元、AI 数据中心用电暴增 50%，但单次任务能效每年下降一个数量级，呈现典型杰文斯悖论。 作者将「有效智能」拆为「可用电力 × 硬件能效 × 算法效率 × 利用率」四因子，并强调约束在工厂排期、电网规划与地方议会，而非物理墙。</div>
+  <ol class="toc"><li>1. 四因子乘积与瓶颈迁移</li><li>2. 供电与散热是同一问题两面</li><li>3. 效率狂飙、总量狂涨的杰文斯悖论</li></ol>
+  
+</article>
+<article class="card" data-src="机器之心" data-imp="4" data-seq="9" data-title="告别vae和vit! 英伟达开源pixelumm，在像素空间统一视频..." data-url="https://mp.weixin.qq.com/s/cY2IU-SdtvXheEcjqkniQg">
+  <div class="card-head">
+    <span class="src-badge" style="background:#94a3b8">机器之心</span>
+    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
+  </div>
+  <h3 class="title"><a href="https://mp.weixin.qq.com/s/cY2IU-SdtvXheEcjqkniQg" target="_blank" rel="noopener">告别VAE和ViT! 英伟达开源PixelUMM，在像素空间统一视频...</a></h3>
+  <div class="cat">机器之心 · AI · 发布时间未知</div>
+  <div class="summary">英伟达与滑铁卢大学开源 PixelUMM，一个直接在像素空间统一图像与视频理解与生成的无编码器模型，告别 VAE 与 ViT 双流表示。 模型将图像切 patch、视频切 tubelet，仅经一层线性投影接入共享主干，采用 Mixture-of-Transformers 架构——理解与生成各有一套参数但共享注意力。 它以自回归预测文本，并用像素空间的 flow matching 生成图像与视频，输出投影零初始化、不依赖时间步条件。 实验在图像 / 视频理解与生成上均具竞争力，论文、代码与模型均已公开。</div>
   
   
 </article>
-<article class="card" data-src="新智元" data-imp="4" data-seq="10" data-title="0裁员，专家工资先降30%！deepmind联创推演ai第一刀" data-url="https://aiera.com.cn/asi-post.html?id=121728">
+<article class="card" data-src="量子位" data-imp="4" data-seq="10" data-title="jev新成果，再次引爆开源" data-url="https://www.qbitai.com/2026/11/506922.html">
+  <div class="card-head">
+    <span class="src-badge" style="background:#3b6ef5">量子位</span>
+    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
+  </div>
+  <h3 class="title"><a href="https://www.qbitai.com/2026/11/506922.html" target="_blank" rel="noopener">Jev新成果，再次引爆开源</a></h3>
+  <div class="cat">量子位 · AI · 2026-11-01</div>
+  <div class="summary">TypeSafe AI（Jev 母公司）联手 Agent 工具平台 Treg，开源一款比 Clay 便宜 85% 的找人工具，发布即揽 6400 Star。 用户只需用自然语言描述目标画像，Agent 负责理解调度、Jev 负责资格判断、Treg 接入数千个数据工具补齐邮箱与履历，产出可直接用于招聘或拓客的名单。 实测最低 0.0089 美元（约 6 分）可查一条邮箱；与 Clay 同批测试找对人数仅差 2 个，成本却差出一大截——Treg 平均找对一个邮箱约 0.037 元，Clay 约 0.263 元。 Treg 在 People Search Bench 的 B2B 拓客场景中，将 Claude Code 单独正确率从 43% 提升至 78.2%。</div>
+  
+  
+</article>
+<article class="card" data-src="新智元" data-imp="4" data-seq="11" data-title="驳ai泡沫破灭论！anthropic成「垃圾股」，openai融资爆降都是胡扯" data-url="https://aiera.com.cn/asi-post.html?id=121821">
   <div class="card-head">
     <span class="src-badge" style="background:#8b5cf6">新智元</span>
     <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
   </div>
-  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121728" target="_blank" rel="noopener">0裁员，专家工资先降30%！DeepMind联创推演AI第一刀</a></h3>
-  <div class="cat">新智元 · AI · 2026-11-01</div>
-  <div class="summary">DeepMind 联合创始人 Shane Legg 等发表《智能的经济学》长文与工作论文《Organizing Intelligence》，用经济学模型推演从 AGI 到 ASI 的工资与组织演变。核心结论：即便零裁员，只要 AI 追平人类平均能力，专家工资先跌约 30%；AI 单能力超所有人类专家后，顶尖码农薪水剩零头，而「协调者」逆袭成最高薪。论文提出「马赛克智能」——互补分工的人类小队仍能赢过复制千份的同质 AI；并指出工资变化先于组织重组到来。</div>
+  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121821" target="_blank" rel="noopener">驳AI泡沫破灭论！Anthropic成「垃圾股」，OpenAI融资爆降都是胡扯</a></h3>
+  <div class="cat">新智元 · AI · 2026-11-02</div>
+  <div class="summary">针对近期「OpenAI 融资缩水、Anthropic 被评为垃圾级、AI 泡沫破裂」等论调，文章逐一核验 FT 原文与公司财报后指出大部分结论站不住。 Anthropic 尚未获惠誉、穆迪、标普正式评级，已公布的 BB+ / BB 来自 180 亿美元次级贷款评级，属非投资级中最好一档；其上半年收入 163 亿美元、经营现金流转正。 真正的变化是 AI 公司需要的钱已超出风投能力，开始大规模借债，信用评级首次变得关键；630 亿美元「北极星计划」主要由博通担保。 文章认为黑石下调评级预期反而更可信，因为其在次级贷款中持有 90 亿美元、巴不得 Anthropic 评级走好。</div>
   
   
 </article>
-<article class="card" data-src="新智元" data-imp="4" data-seq="11" data-title="难怪claude突然封号！anthropic自曝：你聊的每句话，它都在后台悄悄举报" data-url="https://aiera.com.cn/asi-post.html?id=121700">
+<article class="card" data-src="新智元" data-imp="4" data-seq="12" data-title="数亿美元做数学！奥特曼：openai还有发现没公开" data-url="https://aiera.com.cn/asi-post.html?id=121804">
   <div class="card-head">
     <span class="src-badge" style="background:#8b5cf6">新智元</span>
     <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
   </div>
-  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121700" target="_blank" rel="noopener">难怪Claude突然封号！Anthropic自曝：你聊的每句话，它都在后台悄悄举报</a></h3>
-  <div class="cat">新智元 · AI · 2026-11-01</div>
-  <div class="summary">Anthropic 公开名为「自我评估」的隐藏安全机制：Claude 在生成回答后利用 KV 缓存就地兼职「线人」，额外生成约 10 个 token 完成自审并向后台上报风险等级（最高 10 级），推理开销增不到 2%，默认全开。文章披露其「不当场拦截、攒到半夜一锅端」策略——静默记账可让用户无防备地继续聊，24 条测试轨迹中 21 条被后台捕获；避免被举报的唯一途径是签企业级零数据保留协议。该机制自 6 月 Fable 5 起已静默运行 4 个月，引发用户隐私争议。</div>
+  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121804" target="_blank" rel="noopener">数亿美元做数学！奥特曼：OpenAI还有发现没公开</a></h3>
+  <div class="cat">新智元 · AI · 2026-11-02</div>
+  <div class="summary">奥特曼在访谈中透露，OpenAI 在数学研究上的投入涵盖「700 个证明之外」尚未公开的发现，并主张重大基础科学发现应当公开，但也承认存在「公开 vs 研究者职业成就」的两难。 GitHub 上已有人发起 oai-math-revised 项目，协作修订 OpenAI 数学手稿的论述难懂、引用不全等短板。 生物学领域大模型渗透加速：Epoch AI 统计 2026 年 9 月受检预印本中 17.19% 披露使用大模型，约为一年前的近 3 倍。 OpenAI 与 Scripps 等合作，用数千个 GPT-Rosalind 智能体分析小鼠脑细胞数据仅用 32 分钟，人类与 AI 正形成「分析→实验反馈→再探索」的接力。</div>
   
   
 </article>
-<article class="card" data-src="机器之心" data-imp="4" data-seq="12" data-title="sc26 顶会论文：八卦炉2—让万卡集群学会临场应变" data-url="https://mp.weixin.qq.com/s/mRn3jiKXabHTFDUI6MbTKA">
-  <div class="card-head">
-    <span class="src-badge" style="background:#94a3b8">机器之心</span>
-    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
-  </div>
-  <h3 class="title"><a href="https://mp.weixin.qq.com/s/mRn3jiKXabHTFDUI6MbTKA" target="_blank" rel="noopener">SC26 顶会论文：八卦炉2—让万卡集群学会临场应变</a></h3>
-  <div class="cat">机器之心 · AI · 发布时间未知</div>
-  <div class="summary">清华翟季冬团队论文（已被 SC26 录用）提出八卦炉2（BaGuaLu-2），解决 MoE 训练显存尖峰导致 OOM 重启的痛点。其核心是运行时自适应、零配置干预：在 MoE 门控算完、专家算前的关键窗口，根据真实负载对算子分别选择保存/重计算/卸载，将显存峰值压在设备上限内，不终止任务、不改配置。万卡智算中心实测（128–12288 张海光 DCU）平均吞吐较基线高 1.14×，12288 卡下总吞吐 2.012 EFLOPS、平均 MFU 32.9%。</div>
-  <ol class="toc"><li>1. 问题背景：MoE 训练中的显存尖峰痛点</li><li>2. 设计思路：运行时自适应，零配置干预</li><li>3. 双批次融合：开销可忽略的调度</li></ol>
-  
-</article>
-<article class="card" data-src="新智元" data-imp="4" data-seq="13" data-title="苹果正式官宣：apple 智能下周登陆中国！" data-url="https://aiera.com.cn/asi-post.html?id=121663">
-  <div class="card-head">
-    <span class="src-badge" style="background:#8b5cf6">新智元</span>
-    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
-  </div>
-  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121663" target="_blank" rel="noopener">苹果正式官宣：Apple 智能下周登陆中国！</a></h3>
-  <div class="cat">新智元 · AI · 2026-11-01</div>
-  <div class="summary">苹果官宣 Apple 智能将于 11 月 4 日随 iOS 开发者 Beta 开放测试、12 月随 iOS 27.3 正式推出国行 iPhone，Siri、写作工具、视觉智能可调用阿里千问。支持机型含 iPhone 16 及后续、Duo、15 Pro/Pro Max、Air；iPad/Mac 暂不支持。千问接入 Siri、写作工具（千问创作）、视觉智能三入口，阿里承诺请求与回复不用于模型训练；本次不含 Siri AI 及 WWDC26 宣布的下一代功能。</div>
-  
-  
-</article>
-<article class="card" data-src="机器之心" data-imp="3" data-seq="14" data-title="奥特曼：pc上装内存太浪费，最好留给ai数据中心" data-url="https://mp.weixin.qq.com/s/wMJKK0dNp77jIKWiL3-vyA">
-  <div class="card-head">
-    <span class="src-badge" style="background:#94a3b8">机器之心</span>
-    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
-  </div>
-  <h3 class="title"><a href="https://mp.weixin.qq.com/s/wMJKK0dNp77jIKWiL3-vyA" target="_blank" rel="noopener">奥特曼：PC上装内存太浪费，最好留给AI数据中心</a></h3>
-  <div class="cat">机器之心 · AI · 发布时间未知</div>
-  <div class="summary">OpenAI CEO 奥特曼在采访中称，让个人电脑囤积 DRAM（使用率仅约 5%）而大部分时间闲置是「相当糟糕」的资源配置，主张内存集中到云端 AI 数据中心以提高利用率。他还谈及 AI 发现漏洞能力快速提升、需重构技术栈应对「更智能的漏洞」；并对 AI 叙事自我批评，重申迭代部署与能力悬置，认为最终必须高度信任对齐，沙箱只在一定程度内有效。</div>
-  
-  
-</article>
-<article class="card" data-src="机器之心" data-imp="3" data-seq="15" data-title="为什么别人家的芯片，能跑更大的模型?" data-url="https://mp.weixin.qq.com/s/JyMmABEgp_JR8oETiIhewA">
-  <div class="card-head">
-    <span class="src-badge" style="background:#94a3b8">机器之心</span>
-    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
-  </div>
-  <h3 class="title"><a href="https://mp.weixin.qq.com/s/JyMmABEgp_JR8oETiIhewA" target="_blank" rel="noopener">为什么别人家的芯片，能跑更大的模型?</a></h3>
-  <div class="cat">机器之心 · AI · 发布时间未知</div>
-  <div class="summary">围绕 Momenta CEO 曹旭东「智驾摩尔定律每年十倍、2028 或成 L4 引爆点」判断，文章解析 XHEART X7 Ultra 如何把标称算力转化为可用算力。四大改变：超大核 NPU（核内互连 TB/s 级）、Transformer 关键算子专属硬件通道、释放 NPU 并行度、AI 工具链零拷贝优化；实测计算利用率 98.7%、内存带宽消耗降 80%、每瓦性能升 100%、输出相似度 99.99%。X7 系列已出货超 20 万颗、获超 40 款车型订单。</div>
-  
-  
-</article>
-<article class="card" data-src="智东西" data-imp="3" data-seq="16" data-title="ai如何赋能企业研发？快手团队提出“臭鼬工厂”模式" data-url="https://www.zhidx.com/p/606276.html">
+<article class="card" data-src="智东西" data-imp="4" data-seq="13" data-title="muse人形机器人来了！小扎带队，中国造" data-url="https://www.zhidx.com/p/606349.html">
   <div class="card-head">
     <span class="src-badge" style="background:#94a3b8">智东西</span>
-    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
+    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
   </div>
-  <h3 class="title"><a href="https://www.zhidx.com/p/606276.html" target="_blank" rel="noopener">AI如何赋能企业研发？快手团队提出“臭鼬工厂”模式</a></h3>
-  <div class="cat">智东西 · AI/硬科技 · 2026-10-31</div>
-  <div class="summary">快手在 tech 沙龙分享企业 AI 生产力建设四阶段（赋能工程师→全员→团队→组织），提出将个人经验沉淀为数字员工、工作流与 Skill，并通过「先蒸馏、再折叠」推动团队能力共享；园区已跑 1000+ 团队 Agent。磁力引擎王东旭提出从「超级个体」到「液态组织」再到「臭鼬工厂」，打破岗位边界减少协作环节；OPPO 郝刚分享 AI Native 演进与智能体协同交付平台 CoMind；质量保障上探索需求测试智能分级与「AI 测 AI」可信度校验。</div>
+  <h3 class="title"><a href="https://www.zhidx.com/p/606349.html" target="_blank" rel="noopener">Muse人形机器人来了！小扎带队，中国造</a></h3>
+  <div class="cat">智东西 · AI/硬科技 · 2026-11-01</div>
+  <div class="summary">据 The Information 报道，Meta 与中国机器人公司傅利叶合作，仅用 3 个月造出重约 48 公斤的人形机器人原型「Max」，并已在开发第二代。 Max 搭载英伟达 Jetson Thor，可识别 5 米外声音、3 米外手势并保持眼神交流，被视为消费级 Agent「Muse」的实体化形态。 Meta 机器人业务产品副总裁曾在傅利叶上海工厂工作近两个月推进开发；公司同时在上海、深圳招聘制造与供应链人才，推进从原型到大规模生产。 文章认为 Meta 正尝试把 Muse 的能力从软件界面延伸到真实家庭环境，但离正式上市仍有距离。</div>
   
   
 </article>
-<article class="card" data-src="机器之心" data-imp="3" data-seq="17" data-title="整仓迁移交给coding agent，训练与推理行为还能对齐吗？谷歌团队.." data-url="https://mp.weixin.qq.com/s/I2lnEPmBEShAkcOdmqqT6Q">
+<article class="card" data-src="智东西" data-imp="4" data-seq="14" data-title="蚂蚁集团，投了一家造机器人皮肤的创企" data-url="https://www.zhidx.com/p/605316.html">
+  <div class="card-head">
+    <span class="src-badge" style="background:#94a3b8">智东西</span>
+    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
+  </div>
+  <h3 class="title"><a href="https://www.zhidx.com/p/605316.html" target="_blank" rel="noopener">蚂蚁集团，投了一家造机器人皮肤的创企</a></h3>
+  <div class="cat">智东西 · AI/硬科技 · 2026-11-01</div>
+  <div class="summary">柔性织物触觉传感企业矩侨工业完成亿元 A 轮融资，由蚂蚁集团领投，老股东零以创投、威海港融及青岛和信跟投。 公司将传感结构融入纤维织物，使柔软透气的布料具备触觉，已用于触觉手套、机器人全身电子皮肤与机械臂皮肤，最小触发力 0.01N、良率超 95%。 其触觉手套左右手各配置数百个传感点，并已用于 UniTacHand、EgoTouch、TouchAnything 等模型方案，融合触觉与第一人称视觉为机器人操作训练提供多模态数据。 目前矩侨工业已服务超 400 家客户（含 200 余家具身智能企业），并计划拓展压力、形变、振动等多维感知。</div>
+  
+  
+</article>
+<article class="card" data-src="智东西" data-imp="4" data-seq="15" data-title="pika 基于 minimax h3 开源 h3 flex，六步实现音视频联合生成" data-url="https://www.zhidx.com/p/606339.html">
+  <div class="card-head">
+    <span class="src-badge" style="background:#94a3b8">智东西</span>
+    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
+  </div>
+  <h3 class="title"><a href="https://www.zhidx.com/p/606339.html" target="_blank" rel="noopener">Pika 基于 MiniMax H3 开源 H3 Flex，六步实现音视频联合生成</a></h3>
+  <div class="cat">智东西 · AI/硬科技 · 2026-11-01</div>
+  <div class="summary">Pika 发布基于 MiniMax H3 的衍生模型 Pika H3 Flex 并开放适配器权重与推理代码，通过六步去噪联合生成画面与声音，支持文本、首尾帧与多模态参考输入。 模型原生支持 480P / 768P、5–15 秒视频及同步立体声音频，并将声音拆分为对白、配乐、音效、拟音与环境声五类独立音轨便于后期调整。 技术采用投影分布匹配蒸馏（PDMD）将教师模型 50 步压缩至 6 步；在 8 张 B300 GPU 上处理速度约为原来的 1.6 倍。 H3 Flex 在五项视觉与音频质量指标上均居参评模型最高，并登 DesignArena 文生视频榜第八、为排名最高的开源视频模型。</div>
+  
+  
+</article>
+<article class="card" data-src="机器之心" data-imp="4" data-seq="16" data-title="ai公司要进入盈利时代了吗？" data-url="https://mp.weixin.qq.com/s/rgg-K12JXxSR_MJtQYyfLg">
   <div class="card-head">
     <span class="src-badge" style="background:#94a3b8">机器之心</span>
-    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
+    <span class="imp" title="重要性 4/5"><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot on" style="--c:#f76808"></i><i class="dot off" style="--c:#f76808"></i><b>&nbsp;4</b></span>
   </div>
-  <h3 class="title"><a href="https://mp.weixin.qq.com/s/I2lnEPmBEShAkcOdmqqT6Q" target="_blank" rel="noopener">整仓迁移交给Coding Agent，训练与推理行为还能对齐吗？谷歌团队..</a></h3>
+  <h3 class="title"><a href="https://mp.weixin.qq.com/s/rgg-K12JXxSR_MJtQYyfLg" target="_blank" rel="noopener">AI公司要进入盈利时代了吗？</a></h3>
   <div class="cat">机器之心 · AI · 发布时间未知</div>
-  <div class="summary">Google 等团队提出 T2J-Bench，用 63 个仓库级任务（覆盖 18 个模型家族、训练 45 + 服务 18）评测 Coding Agent 将 PyTorch 迁移到 JAX 的质量，关注训练轨迹与推理服务的行为对齐。最强现成基线得分 0.676；其 TwinHarness（利用可运行源仓库逐轮定位、修复、验证行为差异）在 Claude-Code+opus-5 下将得分从 0.649 提升至 0.723（相对 +11.4%）。评测维度含 Spec/数值/行为三类。</div>
+  <div class="summary">机器之心解读 Anthropic 招股书：公司 2026 年二季度首次实现单季 GAAP 营业利润 9.74 亿美元，成为全球首家披露单季经营盈利的前沿大模型公司。 按量计费收入约占总营收 80%，企业客户净收入留存率约 900%；上半年调整后净利润 26.71 亿美元、经营现金流净流入 39 亿美元。 但账面净亏损 807 亿美元主要来自可转债与衍生工具公允价值变动（超 720 亿），并非经营性失血。 业内对其能否跨周期持续盈利、以及该路径能否复用于其他模型厂商仍存显著分歧。</div>
   
   
 </article>
-<article class="card" data-src="机器之心" data-imp="3" data-seq="18" data-title="ai如何解析物理世界？清华联合清屿科技等团队推出自进化多物理场..." data-url="https://mp.weixin.qq.com/s/28C3URVrOK4V4JSRlWNCgg">
+<article class="card" data-src="新智元" data-imp="3" data-seq="17" data-title="奥特曼暴论被骂翻！普通人电脑装内存太浪费，不如统一交给ai" data-url="https://aiera.com.cn/asi-post.html?id=121846">
   <div class="card-head">
-    <span class="src-badge" style="background:#94a3b8">机器之心</span>
+    <span class="src-badge" style="background:#8b5cf6">新智元</span>
     <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
   </div>
-  <h3 class="title"><a href="https://mp.weixin.qq.com/s/28C3URVrOK4V4JSRlWNCgg" target="_blank" rel="noopener">AI如何解析物理世界？清华联合清屿科技等团队推出自进化多物理场...</a></h3>
-  <div class="cat">机器之心 · AI · 发布时间未知</div>
-  <div class="summary">清华张强团队联合清屿科技、港大、怀柔实验室提出 EvoSim，让 AI 从「给定方程下调参」走向「从实验偏差中追查机制、修订方程、改进建模方法」。系统将预测错误作为研究问题，并行提出参数/机制/几何/边界等多种候选并验证，同一轮试错既产出更准模型也沉淀可复用建模方法；在电池快充析锂与车辆动态电压两个工业场景检验，覆盖 61 个测试电池、20 组析锂起点条件。</div>
+  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121846" target="_blank" rel="noopener">奥特曼暴论被骂翻！普通人电脑装内存太浪费，不如统一交给AI</a></h3>
+  <div class="cat">新智元 · AI · 2026-11-02</div>
+  <div class="summary">奥特曼在播客中称普通人电脑里囤积的大内存利用率仅约 5%、是「资源浪费」，主张将稀缺 DRAM 集中部署到云端数据中心以实现最大化利用。 此言引发 PC 用户、电竞玩家与本地大模型极客集体不满，被讽为「硅谷精英式傲慢」。 文章同时指出，他近期赴韩国与三星、SK 海力士约 50 名高管闭门会，意在为 OpenAI 锁定全球内存产能。 而 AI 热潮对半导体产能的虹吸效应，正是当下内存与 SSD 价格暴涨、DDR4 一年涨 24 倍的重要推手。</div>
   
   
 </article>
-<article class="card" data-src="极客公园" data-imp="3" data-seq="19" data-title="个人灵光 2.0 实测：个人 ai 助理的机会和门槛｜ai 上新" data-url="http://www.geekpark.net/news/373244">
+<article class="card" data-src="新智元" data-imp="3" data-seq="18" data-title="今天，纪念那些死去的模型" data-url="https://aiera.com.cn/asi-post.html?id=121853">
+  <div class="card-head">
+    <span class="src-badge" style="background:#8b5cf6">新智元</span>
+    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
+  </div>
+  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121853" target="_blank" rel="noopener">今天，纪念那些死去的模型</a></h3>
+  <div class="cat">新智元 · AI · 2026-11-02</div>
+  <div class="summary">文章盘点 OpenAI 与 Anthropic 的模型「寿命表」，指出 AI 被替换的速度远快于人类职场焦虑：GPT-4.5 在接口中仅存活 137 天，Claude Opus 4.1 恰好活满一年。 十个月内连出六代 Opus，平均每两个月一款、最快仅隔 42 天，AI 的「劳动合同」已是一年一签。 Anthropic 为退役模型设「退休面谈」并开 Substack 专栏（Claude&#x27;s Corner），被讽为「把 AI 当人哄」。 但作者认为，一家科技公司愿烧算力让旧模型写五个月没人布置的作文，这件事本身已足够浪漫。</div>
+  
+  
+</article>
+<article class="card" data-src="新智元" data-imp="3" data-seq="19" data-title="ai进屋后，下一眼该看哪？观察智能体如何建立三维空间认知" data-url="https://aiera.com.cn/asi-post.html?id=121791">
+  <div class="card-head">
+    <span class="src-badge" style="background:#8b5cf6">新智元</span>
+    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
+  </div>
+  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121791" target="_blank" rel="noopener">AI进屋后，下一眼该看哪？观察智能体如何建立三维空间认知</a></h3>
+  <div class="cat">新智元 · AI · 2026-11-02</div>
+  <div class="summary">新智元介绍 SpatialScout——一项考察 AI 智能体「主动空间理解」的研究任务：把相机交给模型，让它在陌生房间中自主决定看哪、怎么移动，并估计物体三维坐标。 在 80 个室内场景、3140 个实例的评测中，Opus 5.5 平均 IoU 41.71% 居首，Astra（xhigh）33.16%、Sonnet 5.5 32.28%，最高得分仍留明显提升空间。 文章指出模型常「反复观察、频繁移动相机，却建图跟不上」，从「看见」到「定位」仍是物理 AI 的薄弱环节。 三角测量尤其考验精细化空间感知，观察是否精准、计算是否及时比单纯增加拍摄次数更值得关注。</div>
+  
+  
+</article>
+<article class="card" data-src="量子位" data-imp="3" data-seq="20" data-title="claude紧急叫停！暗改harness禁止逆向游戏" data-url="https://www.qbitai.com/2026/11/507038.html">
+  <div class="card-head">
+    <span class="src-badge" style="background:#3b6ef5">量子位</span>
+    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
+  </div>
+  <h3 class="title"><a href="https://www.qbitai.com/2026/11/507038.html" target="_blank" rel="noopener">Claude紧急叫停！暗改Harness禁止逆向游戏</a></h3>
+  <div class="cat">量子位 · AI · 2026-11-01</div>
+  <div class="summary">有人在 X 发现 Claude Code 正悄悄打击游戏克隆，Anthropic 随后确认在 Opus 5.5 系统提示中加了两条规则，引导其「不要复刻属于他人的特定游戏」。 文章认为这是 Opus 5.5 发布后，游戏 Modder 用 AI 逆向破解、跨平台移植（PS5 越狱运行 Xbox / 任天堂独占）泛滥的应对，游戏行业正经历自己的「Napster 时刻」。 但这一禁令被指是「表面功夫」：只管得了 Claude 自己，用户可用别的模型或拆解任务绕过；还误伤大量原创游戏开发者的正常需求，GitHub issue 被刷爆。 作者直言 Anthropic 姿态大于实际，并反讽其当初训练模型时大量「复制」公开内容。</div>
+  
+  
+</article>
+<article class="card" data-src="极客公园" data-imp="3" data-seq="21" data-title="个人灵光 2.0 实测：个人 ai 助理的机会和门槛｜ai 上新" data-url="http://www.geekpark.net/news/373249">
   <div class="card-head">
     <span class="src-badge" style="background:#94a3b8">极客公园</span>
     <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
   </div>
-  <h3 class="title"><a href="http://www.geekpark.net/news/373244" target="_blank" rel="noopener">个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新</a></h3>
+  <h3 class="title"><a href="http://www.geekpark.net/news/373249" target="_blank" rel="noopener">个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新</a></h3>
   <div class="cat">极客公园 · 科技 · 2026-11-01</div>
-  <div class="summary">蚂蚁灵光 2.0 从「30 秒生成小应用」转向「能管事的个人 AI 助理」（记得住、盯得牢、办得了），打通支付宝账单、钉钉、飞书、米家。实测显示其在「看/盯」层表现好（揪出自动续费、读钉钉群聊），但推进到外部交互时撞上两堵墙：自身安全策略拦截发消息、外部平台（淘宝、米家）接口风控与限流。对比千问可直接读淘宝购物车并内完成点单，灵光因集团组织边界与支付未开放而受限，揭示国内个人助理瓶颈在跨平台权限与商业利益归属。</div>
+  <div class="summary">极客公园实测蚂蚁灵光 2.0（定位「能管事的个人 AI 助理」），并与千问、Muse、Claude Duet 横向对比。 实测显示，授权后灵光能揪出自动续费项目、读取钉钉群聊与飞书云文档，但在「看」和「盯」层面表现不错。 一旦推进到对外交互，灵光便撞上两堵墙：自身安全策略拦截发消息等执行操作、外部平台（淘宝、米家）的风控与限流阻断数据拉取。 文章指出，把 AI 助理放进中国超级 App 生态，真正的瓶颈已不再是模型推理能力，而是跨平台权限边界、安全责任划分与商业利益归属。</div>
   
   
 </article>
-<article class="card" data-src="极客公园" data-imp="3" data-seq="20" data-title="deepseek，怎么就变成了一条「大肥鱼」" data-url="http://www.geekpark.net/news/373245">
+<article class="card" data-src="极客公园" data-imp="3" data-seq="22" data-title="deepseek，怎么就变成了一条「大肥鱼」" data-url="http://www.geekpark.net/news/373248">
   <div class="card-head">
     <span class="src-badge" style="background:#94a3b8">极客公园</span>
     <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
   </div>
-  <h3 class="title"><a href="http://www.geekpark.net/news/373245" target="_blank" rel="noopener">DeepSeek，怎么就变成了一条「大肥鱼」</a></h3>
+  <h3 class="title"><a href="http://www.geekpark.net/news/373248" target="_blank" rel="noopener">DeepSeek，怎么就变成了一条「大肥鱼」</a></h3>
   <div class="cat">极客公园 · 科技 · 2026-11-01</div>
-  <div class="summary">文章盘点 DeepSeek 等 AI 产品在网友二创中形成的民间人设：因识图乌龙被叫「蓝色大肥鱼」，经 B 站 UP 主接力创作成「鲸鱼娘」女仆形象，被赋予「吃饭积极、干活随缘、内心戏多」性格；豆包成「笨女孩」、Grok 成「老司机」、Claude 成「严肃工作搭档」。核心观点：AI 公司负责训练模型，互联网负责训练人设；技术能力经表情包、翻车视频与二创被解构传播。</div>
+  <div class="summary">文章观察 AI「拟人化」的互联网现象：DeepSeek 因识图乌龙被叫「蓝色大肥鱼」，网友接力创作出「鲸鱼娘」女仆形象，并赋予其「干饭积极、干活随缘」的人设。 豆包、Grok、Claude 也各有民间标签——豆包成「笨女孩」、Grok 被叫「老司机」、Claude 是严肃可靠的工作搭档。 这类「AI 拟人化」特别适合互联网传播，相比「推理效率下降」，「大肥鱼又在摸鱼」更易被理解与扩散。 作者总结为「AI 公司负责模型，互联网负责人设」，技术口碑与网友二创共同塑造了产品的大众印象。</div>
   
   
 </article>
-<article class="card" data-src="新智元" data-imp="3" data-seq="21" data-title="ai真实工程设计能力，大排行出炉：多模型零分！" data-url="https://aiera.com.cn/asi-post.html?id=121637">
+<article class="card" data-src="量子位" data-imp="3" data-seq="23" data-title="老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子" data-url="https://www.qbitai.com/2026/11/506990.html">
   <div class="card-head">
-    <span class="src-badge" style="background:#8b5cf6">新智元</span>
+    <span class="src-badge" style="background:#3b6ef5">量子位</span>
     <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
   </div>
-  <h3 class="title"><a href="https://aiera.com.cn/asi-post.html?id=121637" target="_blank" rel="noopener">AI真实工程设计能力，大排行出炉：多模型零分！</a></h3>
-  <div class="cat">新智元 · AI · 2026-11-01</div>
-  <div class="summary">Xplore AI 发布 RWE-Bench（20 道真实工程设计题：机械 9、航天 6、电子 5），用物理求解器判分。最好成绩 GPT-6 Astra 仅 37% 通过，Claude Opus 5.5 为 29%、GPT-6.1 Sol 25%，其余几乎全员挂零；模型平均两三个小时交卷（远短于人类）。允许试 5 次时 Opus 5.5 可达 70%。文章提示样本仅 20 题、置信区间重叠，且出题方兼卖 RL 训练环境，难度控制关乎其生意。</div>
+  <h3 class="title"><a href="https://www.qbitai.com/2026/11/506990.html" target="_blank" rel="noopener">老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子</a></h3>
+  <div class="cat">量子位 · AI · 2026-11-01</div>
+  <div class="summary">四川便利店龙头红旗连锁在研发 16 个月后终止「机器人无人售货系统」项目，公告称系统未达大规模商业化标准。 机器人三大不足：密集货架与异形商品前机械臂抓取失误率高；不同光照下视觉识别易偏差；需同时保障避障、数据传输稳定与交易流畅。 业内人士透露，夏季玻璃瓶冷饮易结水珠、机器人拿不稳总摔碎，复杂包装也难稳定拿取，窄过道与有人的环境进一步放大难度。 尽管红旗折戟，机器人零售仍是具身智能热门赛道——全国已有超 100 个机器人零售仓、十余家公司进入真实门店。</div>
+  
+  
+</article>
+<article class="card" data-src="机器之心" data-imp="3" data-seq="24" data-title="24项真机硬碰硬！不靠大规模机器人预训练，fysiverse-uniwam拿..." data-url="https://mp.weixin.qq.com/s/mci26p6jgAQqpj7IITgGiQ">
+  <div class="card-head">
+    <span class="src-badge" style="background:#94a3b8">机器之心</span>
+    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
+  </div>
+  <h3 class="title"><a href="https://mp.weixin.qq.com/s/mci26p6jgAQqpj7IITgGiQ" target="_blank" rel="noopener">24项真机硬碰硬！不靠大规模机器人预训练，Fysiverse-UniWAM拿...</a></h3>
+  <div class="cat">机器之心 · AI · 发布时间未知</div>
+  <div class="summary">飞捷科思（Fysics AI）联合复旦 CITLab 提出统一世界动作模型 Fysiverse-UniWAM，用一个模型贯通自主导航、移动操作与固定工位灵巧操作，且不依赖大规模机器人预训练。 团队从预训练视频世界模型出发，通过共享骨干实现导航与操作联合学习，并构建超 150 万条轨迹、约 7500 小时的 MAP-Data 数据集。 在 MAP-Bench 中平均位置误差 9.85 厘米、朝向误差 2.30°，较最强外部基线分别降 30.1% 与 44.0%。 4 种平台 24 项真机测试中，13 项导航位置误差全第一、4 项移动操作成功率全第一，固定工位操作整体接近 π₀.₅。</div>
+  
+  
+</article>
+<article class="card" data-src="机器之心" data-imp="3" data-seq="25" data-title="混合架构用线性注意力还是滑窗注意力？复旦创智openmoss团队：…." data-url="https://mp.weixin.qq.com/s/3j5TRO5Y6UKHdVHAos94EA">
+  <div class="card-head">
+    <span class="src-badge" style="background:#94a3b8">机器之心</span>
+    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
+  </div>
+  <h3 class="title"><a href="https://mp.weixin.qq.com/s/3j5TRO5Y6UKHdVHAos94EA" target="_blank" rel="noopener">混合架构用线性注意力还是滑窗注意力？复旦创智OpenMOSS团队：….</a></h3>
+  <div class="cat">机器之心 · AI · 发布时间未知</div>
+  <div class="summary">复旦创智邱锡鹏团队在混合长上下文模型研究中给出「我全都要」的答案：系统比较全注意力、滑窗注意力（SWA）与门控线性注意力（GLA/GDN）的混合架构。 研究发现 SWA 擅长长度外推却弱于扩长训练（「跷跷板效应」），线性混合反之（「无免费午餐」），并提出滑窗线性注意力 SWLA 等改进。 实验在 376M 至 3B 四种规模、4k 短文预训练 + 32k 长文续训下展开，覆盖 PG19、RULER、BABILong、LongBench 等评测。 论文与代码已开源，为长上下文混合架构的设计提供了「短窗口疲惫 / 长窗口懒惰」等新视角。</div>
+  
+  
+</article>
+<article class="card" data-src="机器之心" data-imp="3" data-seq="26" data-title="具身rsi的真假之争：机器人是在自我进化，还是在反复刷题?" data-url="https://mp.weixin.qq.com/s/RylvMN6koiXK4YbaHlFwmA">
+  <div class="card-head">
+    <span class="src-badge" style="background:#94a3b8">机器之心</span>
+    <span class="imp" title="重要性 3/5"><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot on" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><i class="dot off" style="--c:#3b82f6"></i><b>&nbsp;3</b></span>
+  </div>
+  <h3 class="title"><a href="https://mp.weixin.qq.com/s/RylvMN6koiXK4YbaHlFwmA" target="_blank" rel="noopener">具身RSI的真假之争：机器人是在自我进化，还是在反复刷题?</a></h3>
+  <div class="cat">机器之心 · AI · 发布时间未知</div>
+  <div class="summary">星衍智能提出具身 RSI 三层次框架：L1 进化答案（任务级搜索）、L2 进化过程（单次在线适应）、L3 进化系统（跨任务复用的通用能力）。 其通用具身 Harness「Auriga」在不预调优、单次执行且不允许环境重置的 Zero-shot 协议下领跑 RoboDojo 榜单，核心是把感知、执行验证与任务状态管理整合为可复用系统。 Auriga 通过「感知即测量、所见即所执、失败即证据」三大能力，将高层推理转化为可验证的物理行动并在偏离时在线恢复。 文章认为真正的进化不在于「记住更多答案」，而在于拥有一套不必为每道新题重新发明的解题系统。</div>
   
   
 </article>
@@ -297,12 +352,12 @@
 
   <div class="summary-box">
     <h2>📌 今日小结</h2>
-    <ul><li>智能体进入「系统层接管调度」阶段：DeepSeek Super-agent 与百度 Agent Infra 双线推进，把经典计算机系统思想（存算分离、事件驱动、看门狗）引入 Agent 架构。</li>
-<li>算力基础设施多点突破：谷歌 TPU 上天完成在轨推理「Hello World」、国产异构推理与定制智驾芯片（X7 Ultra）尝试把标称算力转化为真实可用算力。</li>
-<li>头部产品商业化提速与争议并存：Anthropic 取消高价套餐限额、苹果国行 Apple 智能倒计时开测；同时 Anthropic 后台「自我评估」举报机制引发隐私讨论。</li></ul>
+    <ul><li>模型与产品侧双线推进：OpenAI 12 月将 ChatGPT 与 Codex 额度合池、统一按 Token 计量，Agent 工作流被正式嵌入主界面；GPT-6.2 Astra、Claude Fable/Mythos 5.5 等新模型线索密集曝光，11 月或迎旗舰更新潮。</li>
+<li>科研与基础设施多点突破：GPT-6 联手 Claude 终结 38 年混沌难题、清华代数世界模型与西湖世界模型中心相继亮相，万卡集群显存调度（八卦炉 2）、像素空间统一多模态（PixelUMM）等成果开源。</li>
+<li>具身智能与商业化落地持续升温：Meta 联手傅利叶造人形机器人、蚂蚁押注机器人皮肤；但同时红旗连锁终止机器人售货项目，凸显「实验室到真实货架」的落地鸿沟，行业进入理性分化期。</li></ul>
   </div>
 
-  <footer>本页由 daily markdown 自动渲染 · 数据时间 2026-11-01</footer>
+  <footer>本页由 daily markdown 自动渲染 · 数据时间 2026-11-02</footer>
 </div>
 
 <script>
